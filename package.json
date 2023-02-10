@@ -48,6 +48,7 @@
   },
   "dependencies": {
     "d3": "^7.8.2",
+    "shade-blend-color": "^1.0.0",
     "svelte-material-ui": "^7.0.0-beta.0",
     "svelte-select": "^5.2.1",
     "svelte-splitpanes": "^0.7.12"

@@ -7,6 +7,7 @@
 	import SearchField from './components/searchField.svelte';
 	import Timeline from './components/timeline.svelte';
   import Header from "./header.svelte";
+  import Vis from "./vis.svelte";
 
 	import { onMount } from 'svelte';
 
@@ -168,7 +169,7 @@
 							keyboard_double_arrow_right
 						</IconButton>
 					</div>
-					<div style="height: {innerHeight - 22}px; width: 25%;" class="demo-cell" />
+					<Vis/>
 				</Pane>
 			{/if}
 		</Splitpanes>
@@ -200,6 +201,7 @@
 	.show-button {
 		position: fixed;
 		top: 80px;
+		z-index: 2;
 	}
 	.hide-button {
 		position: fixed;
