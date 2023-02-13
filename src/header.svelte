@@ -14,9 +14,9 @@
 
 <header class="top-bar flexy">
 	<div class="survey-info">
-		<h2 class="survey-title">Graph Layout Algorithms</h2>
+		<h2 class="survey-title">Graph Drawing Computational Evaluations </h2>
 		<p class="survey-subtext">
-			The state of the art in computational evaluations of graph layout algorithms.
+			Designing Computational Evaluations for Graph Layout Algorithms: the State of the Art.
 		</p>
 		<p class="survey-subtext">Provided by Data Visualization @ Khoury</p>
 	</div>

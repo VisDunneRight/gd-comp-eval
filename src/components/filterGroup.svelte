@@ -19,7 +19,7 @@
 
 	const updateShowCount = (newCount) => {
 		const temp = values.sort((a, b) => {
-			return freqGroup[a] <= freqGroup[b];
+			return freqGroup[b] - freqGroup[a];
 		});
 		if (newCount > 0) {
 			showCount = newCount;

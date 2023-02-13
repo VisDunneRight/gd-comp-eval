@@ -108,7 +108,13 @@
 		Object.entries(startingPoint).forEach(([prop, arrValue]) => {
 			freqCount(prop, arrValue, filteredFreq);
 		});
-		filteredData = startingPoint.sort((p1, p2) => Number(p1.year) < Number(p2.year));
+		filteredData = startingPoint.sort((p1, p2) => {
+			if(Number(p1.year) < Number(p2.year)){
+				return 1;
+			} else {
+				return -1;
+			}
+		});
 	}
 
 	function setVis() {

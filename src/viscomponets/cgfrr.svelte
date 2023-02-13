@@ -75,7 +75,7 @@
     <Panel>
       <Header>Correlation Matrix</Header>
       <Content>
-        <Set chips={choicesCorr} let:chip choice bind:selected={selectedCorr}>
+        <Set style={"border-bottom: 1px solid gray"} chips={choicesCorr} let:chip choice bind:selected={selectedCorr}>
           <Chip {chip}>
             <Text>{chip}</Text>
           </Chip>

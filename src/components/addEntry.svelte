@@ -177,7 +177,7 @@
 			</div>
 		</div>
 		<div class="entry-row">
-			<div class="title-text mdc-typography--body1"><strong>Bibtex:</strong></div>
+			<div class="title-text mdc-typography--body1"><strong>BibTex:</strong></div>
 			<div class="text-field">
 				<Textfield
 					style="width: 100%;"
@@ -185,7 +185,7 @@
 					textarea
 					on:change={generateJson}
 					bind:value={bibtex}
-					label="Label"
+					label="copy and paste bibtexe"
 				/>
 			</div>
 		</div>
@@ -198,7 +198,7 @@
 					variant="outlined"
 					on:change={generateJson}
 					bind:value={doi}
-					label="e.g, https://doi.org/0"
+					label="e.g., https://doi.org/0"
 				/>
 			</div>
 		</div>
