@@ -1,5 +1,4 @@
 @use 'sass:color';
-
 @use '@material/theme/color-palette';
 
 // Svelte Colors! (Dark Theme)
@@ -7,9 +6,10 @@
   $primary: #ff3e00,
   $secondary: color.scale(#676778, $whiteness: -10%),
   $surface: color.adjust(color-palette.$grey-900, $blue: +4),
-  $background: #000,
+  $background: #121212,
   $error: color-palette.$red-700
 );
+@use '@material/theme/styles';
 
 html,
 body {

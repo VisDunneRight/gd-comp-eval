@@ -4,26 +4,34 @@
 	import Dialog, { Content } from '@smui/dialog';
 	import Menu from '@smui/menu';
 	import List, { Item, Separator, Text } from '@smui/list';
-	import surveys from './data/surveys.json';
+	import surveys from './data/other-surveys.json';
 	import AddEntry from './components/addEntry.svelte';
 	let menu;
 	let open = false;
 	export let detailView;
+	export let topView;
 	export let freq;
 </script>
 
 <header class="top-bar flexy">
 	<div class="survey-info">
-		<h2 class="survey-title">Graph Drawing Computational Evaluations </h2>
-		<p class="survey-subtext">
-			Designing Computational Evaluations for Graph Layout Algorithms: the State of the Art.
-		</p>
-		<p class="survey-subtext">Provided by Data Visualization @ Khoury</p>
+		{#if topView.title}
+			<h2 class="survey-title">{topView.title}</h2>
+		{/if}
+		{#if topView.description}
+			<p class="survey-subtext">
+				{topView.description}
+			</p>
+		{/if}
+		{#if topView.authors}
+			<p class="survey-subtext">{topView.authors}</p>
+		{/if}
+		
 	</div>
 	<div class="flex-end">
-		<Dialog bind:open fullscreen aria-describedby="sheet-content" style="z-index:5">
+		<Dialog bind:open fullscreen aria-describedby="sheet-content" style="z-index:10">
 			<Content id="sheet-content">
-				<AddEntry {detailView} {freq} />
+				<AddEntry {detailView} {freq} addEntryInfo={topView.addEntry}/>
 				<div class="close-button">
 					<IconButton on:click={() => (open = false)} class="material-icons">close</IconButton>
 				</div>
@@ -69,11 +77,12 @@
 	.top-bar {
 		width: 100%;
 		border: 1px solid var(--mdc-theme-text-hint-on-background, rgba(0, 0, 0, 0.1));
-		background-color: var(--mdc-theme-background, #fff);
+		background-color: var(--mdc-theme-background, #212125);
 		overflow: inherit;
 		display: inline-block;
 		align-items: center;
 	}
+
 	.flexy {
 		display: flex;
 		flex-wrap: wrap;

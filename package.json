@@ -1,7 +1,7 @@
 {
   "name": "graph-layouts",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.8.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -47,6 +47,7 @@
     "vite": "^4.1.0"
   },
   "dependencies": {
+    "@svelte-parts/zoom": "^0.0.23",
     "d3": "^7.8.2",
     "shade-blend-color": "^1.0.0",
     "svelte-material-ui": "^7.0.0-beta.0",

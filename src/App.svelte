@@ -2,12 +2,13 @@
   import {Pane, Splitpanes} from 'svelte-splitpanes';
 	import IconButton from '@smui/icon-button';
 	import PaperCard from './components/paperCard.svelte';
-	import structure from './data/Layout-Survey.json';
 	import FilterPanel from './filterPanel.svelte';
 	import SearchField from './components/searchField.svelte';
 	import Timeline from './components/timeline.svelte';
   import Header from "./header.svelte";
   import Vis from "./vis.svelte";
+	import structure from './data/survey-config.json';
+	import dataMeta from './data/survey-data.json';
 
 	import { onMount } from 'svelte';
 
@@ -20,19 +21,31 @@
 	let meta = {};
 	let freq = {};
 	let filteredFreq = {};
+	let selectTopics = [];
 	let filter = {
 		searchWord: '',
 		yearRange: [-1, -1]
 	};
 
 	//Restructuring parts of the data passed in
-	structure.meta.forEach((prop) => {
+	dataMeta.meta.forEach((prop) => {
 		meta[prop.name] = prop;
 	});
 
 	let filterBy = structure.filterBy;
 	filterBy.forEach((prop) => {
-		if (prop.name in meta && meta[prop.name].type === 'MultiSelect') prop.selected = [];
+		if(prop.values){
+			if (prop.name in meta && meta[prop.name].type === 'MultiSelect'){
+				prop.selected = [];
+			}
+		} else {
+			prop.categories.forEach((option) => {
+				if (option.name in meta && meta[option.name].type === 'MultiSelect'){
+					option.selected = [];
+				}
+			})
+		}
+		 
 	});
 
 	function freqCount(prop, arrValue, freqDict) {
@@ -51,7 +64,7 @@
 		}
 	}
 
-	structure.data.forEach((paper) => {
+	dataMeta.data.forEach((paper) => {
 		Object.entries(paper).forEach(([prop, arrValue]) => {
 			freqCount(prop, arrValue, freq);
 		});
@@ -62,8 +75,9 @@
 	});
 
 	function applyFilters() {
+		console.log("ApplyFilters:", filterBy);
 		//This is a shallow copy, we only interested in the order
-		let startingPoint = [...structure.data];
+		let startingPoint = [...dataMeta.data];
 
 		//Filter by search bar
 		if (filter.searchWord !== '') {
@@ -73,48 +87,91 @@
 		}
 		if (filter.yearRange[0] > 0)
 			startingPoint = startingPoint.filter(
-				(paper) => filter.yearRange[0] < +paper.year && +paper.year < filter.yearRange[1]
+				(paper) => filter.yearRange[0] < +paper.Year && +paper.Year < filter.yearRange[1]
 			);
 
+			const re = new RegExp("([0-9]+)")
 		//Filter by categories
 		filterBy.forEach((group) => {
-			if (group.selected && group.selected.length > 0) {
-				const selected = group.selected.map((sel) => {
-					return sel.split(') ')[1];
-				});
-				let res = [];
-				startingPoint.forEach((paper) => {
-					let found = false;
-					if (Array.isArray(paper[group.name])) {
-						const listCate = paper[group.name];
-						found = true;
-						selected.forEach((prop) => {
-							if (listCate.includes(prop) === false) {
-								found = false;
-								return;
-							}
-						});
-					} else if (typeof paper[group.name] === 'string') {
-						found = selected.includes(paper[group.name]);
-					}
+			if(group.values){
+				if (group.selected && group.selected.length > 0) {
+					const selected = group.selected.map((sel) => {
+						return re.test(sel) ? sel.split(') ')[1]: sel;
+					});
+					let res = [];
+					startingPoint.forEach((paper) => {
+						let found = false;
+						if (Array.isArray(paper[group.name])) {
+							const listCate = paper[group.name];
+							found = true;
+							selected.forEach((prop) => {
+								if (listCate.includes(prop) === false) {
+									found = false;
+									return;
+								}
+							});
+						} else if (typeof paper[group.name] === 'string') {
+							found = selected.includes(paper[group.name]);
+						}
 
-					if (found) {
-						res.push(paper);
-					}
-				});
-				startingPoint = res;
+						if (found) {
+							res.push(paper);
+						}
+					});
+					startingPoint = res;
+				}
+			} else {
+				group.categories.forEach((option)=>{
+					if (option.selected && option.selected.length > 0) {
+					const selected = option.selected.map((sel) => {
+						return re.test(sel) ? sel.split(') ')[1]: sel;
+					});
+					let res = [];
+					startingPoint.forEach((paper) => {
+						let found = false;
+						if (Array.isArray(paper[option.name])) {
+							const listCate = paper[option.name];
+							found = true;
+							selected.forEach((prop) => {
+								if (listCate.includes(prop) === false) {
+									found = false;
+									return;
+								}
+							});
+						} else if (typeof paper[option.name] === 'string') {
+							found = selected.includes(paper[option.name]);
+						}
+						if (found) {
+							res.push(paper);
+						}
+					});
+					startingPoint = res;
+				}
+				})
 			}
 		});
 		Object.entries(startingPoint).forEach(([prop, arrValue]) => {
 			freqCount(prop, arrValue, filteredFreq);
 		});
 		filteredData = startingPoint.sort((p1, p2) => {
-			if(Number(p1.year) < Number(p2.year)){
+			if(Number(p1.Year) < Number(p2.Year)){
 				return 1;
 			} else {
 				return -1;
 			}
 		});
+
+		selectTopics = [];
+		filterBy.forEach((filter)=>{
+			if('groupName' in filter){
+				filter.categories.forEach((cate)=>{
+					selectTopics = selectTopics.concat(cate.selected);
+				})
+			} else {
+				selectTopics = selectTopics.concat(filter.selected);
+			}
+		})
+		filterBy = [...filterBy];
 	}
 
 	function setVis() {
@@ -131,23 +188,22 @@
 		applyFilters();
 	}
 
-	console.log(innerWidth, innerHeight);
 </script>
 
 <svelte:window bind:innerHeight bind:innerWidth />
-<Header detailView={structure.detailView} {freq} />
+<Header detailView={structure.detailView.show} topView={structure.topView} {freq} />
 <body>
 	<div class="left-panel">
 		<div class="num-papers">
 			<div class="mdc-typography--headline6">Number of papers:</div>
-			<div class="mdc-typography--headline6">{filteredData.length}/{structure.data.length}</div>
+			<div class="mdc-typography--headline6">{filteredData.length}/{dataMeta.data.length}</div>
 		</div>
 		<SearchField on:message={updateSearchResults} />
-		<Timeline {filteredData} data={structure.data} on:message={updateTimeRange} />
-		<FilterPanel {filterBy} {freq} {filteredFreq} on:message={applyFilters} />
+		<Timeline {filteredData} data={dataMeta.data} on:message={updateTimeRange} />
+		<FilterPanel {filterBy} {freq} {filteredFreq} {selectTopics} on:message={applyFilters} />
 	</div>
 	<div class="main-view">
-		<Splitpanes class="default-theme" style="height:{innerHeight - 80}">
+		<Splitpanes class="default-theme " style="height:{innerHeight - 80}">
 			<Pane>
 				<div class="card-container">
 					{#each filteredData as paper}
@@ -175,7 +231,7 @@
 							keyboard_double_arrow_right
 						</IconButton>
 					</div>
-					<Vis/>
+					<Vis data={dataMeta.data} filterBy={filterBy} on:message={applyFilters}/>
 				</Pane>
 			{/if}
 		</Splitpanes>
@@ -196,18 +252,21 @@
 		width: 300px;
 		height: 100%;
 		overflow-x: hidden;
+		padding-right:8px;
+		background-color: var(--mdc-theme-background, #fff);
 	}
 	.main-view {
 		padding-left: 300px;
 	}
 	.card-container {
+		background-color: #f2f2f2;
 		/* display: grid;
 		column-gap: 10px; */
 	}
 	.show-button {
 		position: fixed;
 		top: 80px;
-		z-index: 2;
+		z-index: 1;
 	}
 	.hide-button {
 		position: fixed;

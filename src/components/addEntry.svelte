@@ -13,6 +13,7 @@
 	let json = '';
 	export let detailView = [];
 	export let freq = {};
+	export let addEntryInfo;
 	let categories = [];
 
 	detailView.forEach((cate) => {
@@ -80,8 +81,13 @@
 
 <div>
 	<div class="mdc-typography--headline3">Add Entry</div>
-	<p class="mdc-typography--body1">
-		If you are an author of a peer-reviewed published work on Graph layouts that presents a
+	{#each addEntryInfo.description as para}
+		<p class="mdc-typography--body1">
+			{para}
+		</p>
+	{/each}
+	<!-- <p class="mdc-typography--body1">
+		If you are an author of a peer-reviewed published work on Immersive Analytics that presents a
 		contribution missing in our browser, please feel free to submit an entry. Filling out the form
 		below will create a json entry that can be added as an issue to the github together with a
 		100x100px PNG thumbail.
@@ -90,7 +96,7 @@
 		The URL provided in the form should point to a DOI. Also, please acknowledge the fact that by
 		submitting an entry, you provide us with permissions to use your image on this resource and in
 		related publications.
-	</p>
+	</p> -->
 	<p class="mdc-typography--body1">
 		<strong>Note:</strong> if you would like to update an entry, click on the 3 dots found on the entry
 		you wish to update.
@@ -105,7 +111,7 @@
 					variant="outlined"
 					on:change={generateJson}
 					bind:value={stitle}
-					label="e.g., Grid-Layout"
+					label="e.g., VR-NetworkLayout"
 				/>
 			</div>
 		</div>
@@ -221,9 +227,16 @@
 					<Label>Copy to Clipboard</Label>
 				</Button>
 			</Clipboard>
-			<Button on:click={() => window.open('https://github.com/', '_blank')}>
-				<Label>Open Issue</Label>
-			</Button>
+			{#if addEntryInfo.github}
+				<Button on:click={() => window.open(addEntryInfo.github, '_blank')}>
+					<Label>Open Issue</Label>
+				</Button>
+			{:else if addEntryInfo.email}
+				<Button on:click={() => window.open(addEntryInfo.email, '_blank')}>
+					<Label>Open email</Label>
+				</Button>
+			{/if}
+			
 		</div>
 	</div>
 </div>

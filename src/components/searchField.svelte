@@ -18,7 +18,7 @@
 	}
 </script>
 
-<div class="solo-demo-container solo-container">
+<div class="solo-container solo-container-prop">
 	<Paper class="solo-paper" elevation={6}>
 		<Icon class="material-icons">search</Icon>
 		<Input bind:value={searchText} on:input={onSearch} placeholder="Search" class="solo-input" />
@@ -27,13 +27,14 @@
 </div>
 
 <style>
-	.solo-demo-container {
+	.solo-container {
 		padding: 12px 8px;
 		background-color: var(--mdc-theme-background, #f8f8f8);
 		border: 1px solid var(--mdc-theme-text-hint-on-background, rgba(0, 0, 0, 0.1));
+		margin-right:2px;
 	}
 
-	.solo-container {
+	.solo-container-prop {
 		display: flex;
 		justify-content: center;
 		align-items: center;

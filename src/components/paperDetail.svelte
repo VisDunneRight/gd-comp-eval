@@ -4,18 +4,11 @@
 	import Clipboard from 'svelte-clipboard';
 	import IconButton from '@smui/icon-button';
 	import Multiselect from './multiselect.svelte';
-	/**
-	 * @type {{ Name: any; year: any; Authors: any; DOI: any; }}
-	 */
+
 	export let paper;
-	/**
-	 * @type {any}
-	 */
 	export let detailView;
-	/**
-	 * @type {{ [x: string]: { type: string; }; }}
-	 */
 	export let meta;
+
 	let snackbarWithClose;
 </script>
 
@@ -27,12 +20,12 @@
 </Snackbar>
 <div class="paper-container">
 	<h2 class="mdc-typography--headline6" style="margin: 0 20px 0 0 ;">
-		{paper.Name} ({paper.year})
+		{paper.Name} ({paper.Year})
 	</h2>
 	<h3 class="mdc-typography--subtitle2" style="margin: 0 0 10px; color: #888;">
 		by {paper.Authors}
 	</h3>
-	{#each detailView as prop}
+	{#each detailView.show as prop}
 		{#if meta[prop].type === 'String'}
 			<div class="string-select">
 				<div class="mdc-typography--body1"><strong>{prop}:&nbsp;</strong></div>

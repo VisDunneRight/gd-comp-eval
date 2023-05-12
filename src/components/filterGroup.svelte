@@ -11,11 +11,15 @@
 	export let selected;
 	export let values;
 	export let freqGroup;
-	export let filterFreqGroup;
+	
 
 	let listVal = [];
 	const sShowCount = 10;
 	let showCount = 10;
+	let listSelected = [''];
+
+	listVal = values;
+	
 
 	const updateShowCount = (newCount) => {
 		const temp = values.sort((a, b) => {
@@ -31,23 +35,36 @@
 			return '(' + freqGroup[name] + ') ' + name;
 		});
 	};
-	const updateSelection = () => {
+
+	const updateSelection = (selected) => {
+		const re = new RegExp("([0-9]+)")
+		
+		listSelected.forEach((sel) => {
+			let res = re.test(sel) ? sel.split(') ')[1]: sel;
+			if(!selected.includes(res))
+				selected.push(res)
+		});
+		
 		dispatch('message', { text: selected });
 	};
+	// function updateSelectedList(selected){
+	// 	return [...selected];
+	// }
+	listSelected = [...selected];
 
 	onMount(async () => {
-		listVal = values;
 		updateShowCount(showCount);
 	});
+	
 </script>
 
 <Header>
 	<div class="sizing">
 		<div>
 			{name}
-			{#if selected !== undefined && selected.length}
+			{#if listSelected !== undefined && listSelected.length}
 				<span style="color:gray">
-					({selected.length})
+					({listSelected.length})
 				</span>
 			{/if}
 		</div>
@@ -55,7 +72,9 @@
 </Header>
 
 <Content>
-	<Set chips={listVal} let:chip filter bind:selected on:click={updateSelection}>
+	<Set chips={listVal} let:chip filter 
+				bind:selected={listSelected} 
+				on:click={(e) => updateSelection(selected)}>
 		<Chip {chip} touch>
 			<Text>{chip}</Text>
 		</Chip>
