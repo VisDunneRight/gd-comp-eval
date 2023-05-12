@@ -17,7 +17,7 @@
             "type": "MultiSelect"
         },
         {
-            "name": "year",
+            "name": "Year",
             "type": "Timeline"
         },
         {
@@ -74,7 +74,7 @@
             "Authors": [
                 "Michael Ogawa and Kwan-Liu Ma"
             ],
-            "year": "2010",
+            "Year": "2010",
             "Dataset Size": "6",
             "BibTex": "@inproceedings{Ogawa2010,\ndoi = {10.1145/1879211.1879219},\nurl = {https://doi.org/10.1145/1879211.1879219},\nyear = {2010},\npublisher = {{ACM} Press},\nauthor = {Michael Ogawa and Kwan-Liu Ma},\ntitle = {Software evolution storylines},\nbooktitle = {Proceedings of the 5th international symposium on Software visualization - {SOFTVIS} {\\textquotesingle}10}\n}",
             "Dataset Tag": [
@@ -109,7 +109,7 @@
             "Authors": [
                 "Chris Muelder and Kwan-Liu Ma"
             ],
-            "year": "2008",
+            "Year": "2008",
             "Dataset Size": "5",
             "BibTex": "@INPROCEEDINGS{muelder2008b, author={Muelder, Chris and Ma, Kwan-Liu}, booktitle={2008 IEEE Pacific Visualization Symposium}, title={A Treemap Based Method for Rapid Layout of Large Graphs}, year={2008}, volume={}, number={}, pages={231-238}, doi={10.1109/PACIFICVIS.2008.4475481}}",
             "Dataset Tag": [
@@ -150,7 +150,7 @@
             "Authors": [
                 "Stef van den Elzen and Danny Holten and Jorik Blaas and Jarke J. van Wijk"
             ],
-            "year": "2013",
+            "Year": "2013",
             "Dataset Size": "3",
             "BibTex": "@inproceedings{vandenElzen2013,\ndoi = {10.1109/pacificvis.2013.6596125},\nurl = {https://doi.org/10.1109/pacificvis.2013.6596125},\nyear = {2013},\nmonth = feb,\npublisher = {{IEEE}},\nauthor = {Stef van den Elzen and Danny Holten and Jorik Blaas and Jarke J. van Wijk},\ntitle = {Reordering Massive Sequence Views: Enabling temporal and structural analysis of dynamic networks},\nbooktitle = {2013 {IEEE} Pacific Visualization Symposium ({PacificVis})}\n}",
             "Dataset Tag": [
@@ -186,7 +186,7 @@
             "Authors": [
                 "David Cheng Zarate and\u00a0Pierre Le Bodic and\u00a0Tim Dwyer and Graeme Gange and\u00a0Peter Stuckey"
             ],
-            "year": "2018",
+            "Year": "2018",
             "Dataset Size": "21",
             "BibTex": "@INPROCEEDINGS{zarate2018, author={Zarate, David Cheng and Bodic, Pierre Le and Dwyer, Tim and Gange, Graeme and Stuckey, Peter}, booktitle={2018 IEEE Pacific Visualization Symposium (PacificVis)}, title={Optimal Sankey Diagrams Via Integer Programming}, year={2018}, volume={}, number={}, pages={135-139}, doi={10.1109/PacificVis.2018.00025}}",
             "Dataset Tag": [
@@ -220,7 +220,7 @@
             "Authors": [
                 "Rosane Minghim and Fernando Vieira Paulovich and\u00a0Alneu de Andrade Lopes"
             ],
-            "year": "2006",
+            "Year": "2006",
             "Dataset Size": "4",
             "BibTex": "@inproceedings{minghim2006,\nauthor = {Minghim, Rosane and Paulovich, Fernando and Lopes, Alneu},\nyear = {2006},\nmonth = {01},\npages = {60600S},\ntitle = {Content-based text mapping using multi-dimensional projections for exploration of document collections},\nvolume = {6060},\ndoi = {10.1117/12.650880}\n}",
             "Dataset Tag": [
@@ -253,7 +253,7 @@
             "Authors": [
                 "Josh Barnes and Piet Hut"
             ],
-            "year": "1986",
+            "Year": "1986",
             "Dataset Size": "2",
             "BibTex": "@article{Barnes1986,\ndoi = {10.1038/324446a0},\nurl = {https://doi.org/10.1038/324446a0},\nyear = {1986},\nmonth = dec,\npublisher = {Springer Science and Business Media {LLC}},\nvolume = {324},\nnumber = {6096},\npages = {446--449},\nauthor = {Josh Barnes and Piet Hut},\ntitle = {A hierarchical O(N log N) force-calculation algorithm},\njournal = {Nature}\n}",
             "Dataset Tag": [
@@ -286,7 +286,7 @@
             "Authors": [
                 "Helen Gibson and Joe Faith and Paul Vickers"
             ],
-            "year": "2013",
+            "Year": "2013",
             "Dataset Size": "NA",
             "BibTex": "@article{Gibson2012,\ndoi = {10.1177/1473871612455749},\nurl = {https://doi.org/10.1177/1473871612455749},\nyear = {2012},\nmonth = sep,\npublisher = {{SAGE} Publications},\nvolume = {12},\nnumber = {3-4},\npages = {324--357},\nauthor = {Helen Gibson and Joe Faith and Paul Vickers},\ntitle = {A survey of two-dimensional graph layout techniques for information visualisation},\njournal = {Information Visualization}\n}",
             "Dataset Tag": [
@@ -319,7 +319,7 @@
             "Authors": [
                 "Walter Didimo and Giuseppe Liotta and Fabrizio Montecchiani"
             ],
-            "year": "2020",
+            "Year": "2020",
             "Dataset Size": "NA",
             "BibTex": "@article{Didimo2019,\ndoi = {10.1145/3301281},\nurl = {https://doi.org/10.1145/3301281},\nyear = {2019},\nmonth = feb,\npublisher = {Association for Computing Machinery ({ACM})},\nvolume = {52},\nnumber = {1},\npages = {1--37},\nauthor = {Walter Didimo and Giuseppe Liotta and Fabrizio Montecchiani},\ntitle = {A Survey on Graph Drawing Beyond Planarity},\njournal = {{ACM} Computing Surveys}\n}",
             "Dataset Tag": [
@@ -352,7 +352,7 @@
             "Authors": [
                 "Jonathan D. Cohen"
             ],
-            "year": "1997",
+            "Year": "1997",
             "Dataset Size": "153",
             "BibTex": "@article{cohen1997,\nauthor = {Cohen, Jonathan D.},\ntitle = {Drawing Graphs to Convey Proximity: An Incremental Arrangement Method},\nyear = {1997},\nissue_date = {Sept. 1997},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {4},\nnumber = {3},\nissn = {1073-0516},\nurl = {https://doi.org/10.1145/264645.264657},\ndoi = {10.1145/264645.264657},\nabstract = {Graph drawings are increasingly finding their way into user interfaces to convey a variety of relationships. This article deals with rendering graphs to show proximity between vertices by making their configuration (screen) distances reflect their distances in the graph. An arrangement method is described that achieves good drawings at speeds suitable for user interaction on a desktop computer. The method is \u201cincremental\u201d in that it first arranges a small portion of the graph, then arranges successively larger fractions of the graph until a suitable arrangement for the entirety is achieved. The incremental approach not only offers speed improvements, but avoids many of the suboptimal solutions reached with other iterative approaches. Algorithms are described in pseudocode, and results are presented.},\njournal = {ACM Trans. Comput.-Hum. Interact.},\nmonth = {sep},\npages = {197\u2013229},\nnumpages = {33},\nkeywords = {force-directed, graph drawing, graph layout, multidimensional scaling, MDS}\n}",
             "Dataset Tag": [
@@ -387,7 +387,7 @@
             "Authors": [
                 "Thomas M. J. Fruchterman and Edward M. Reingold"
             ],
-            "year": "1991",
+            "Year": "1991",
             "Dataset Size": "67",
             "BibTex": "@article{Fruchterman1991,\ndoi = {10.1002/spe.4380211102},\nurl = {https://doi.org/10.1002/spe.4380211102},\nyear = {1991},\nmonth = nov,\npublisher = {Wiley},\nvolume = {21},\nnumber = {11},\npages = {1129--1164},\nauthor = {Thomas M. J. Fruchterman and Edward M. Reingold},\ntitle = {Graph drawing by force-directed placement},\njournal = {Software: Practice and Experience}\n}",
             "Dataset Tag": [
@@ -422,7 +422,7 @@
             "Authors": [
                 "Emden R. Gansner and Eleftherios Koutsofios and Stephen C. North and Kiem-Phong Vo"
             ],
-            "year": "1993",
+            "Year": "1993",
             "Dataset Size": "4",
             "BibTex": "@ARTICLE{221135,\n  author={Gansner, E.R. and Koutsofios, E. and North, S.C. and Vo, K.-P.},\n  journal={IEEE Transactions on Software Engineering}, \n  title={A technique for drawing directed graphs}, \n  year={1993},\n  volume={19},\n  number={3},\n  pages={214-230},\n  doi={10.1109/32.221135}}",
             "Dataset Tag": [
@@ -457,7 +457,7 @@
             "Authors": [
                 "Yonghe Zhang and Yanyan Li"
             ],
-            "year": "2010",
+            "Year": "2010",
             "Dataset Size": "5",
             "BibTex": "@inproceedings{Zhang2010,\ndoi = {10.1109/cise.2010.5677225},\nurl = {https://doi.org/10.1109/cise.2010.5677225},\nyear = {2010},\nmonth = dec,\npublisher = {{IEEE}},\nauthor = {Yonghe Zhang and Yanyan Li},\ntitle = {{BaryLayout}: A Simple Algorithm for Fast Drawing Large Graphs},\nbooktitle = {2010 International Conference on Computational Intelligence and Software Engineering}\n}",
             "Dataset Tag": [
@@ -490,7 +490,7 @@
             "Authors": [
                 "Tomihisa Kamada and Satoru Kawai"
             ],
-            "year": "1989",
+            "Year": "1989",
             "Dataset Size": "11",
             "BibTex": "@article{KAMADA19897,\ntitle = {An algorithm for drawing general undirected graphs},\njournal = {Information Processing Letters},\nvolume = {31},\nnumber = {1},\npages = {7-15},\nyear = {1989},\nissn = {0020-0190},\ndoi = {https://doi.org/10.1016/0020-0190(89)90102-6},\nurl = {https://www.sciencedirect.com/science/article/pii/0020019089901026},\nauthor = {Tomihisa Kamada and Satoru Kawai},\nkeywords = {Graph, network structure, layout, drawing algorithm}\n}",
             "Dataset Tag": [
@@ -525,7 +525,7 @@
             "Authors": [
                 "Kozo Sugiyama and Shojiro Tagawa and Mitsuhiko Toda"
             ],
-            "year": "1981",
+            "Year": "1981",
             "Dataset Size": "13",
             "BibTex": "@article{Sugiyama1981,\ndoi = {10.1109/tsmc.1981.4308636},\nurl = {https://doi.org/10.1109/tsmc.1981.4308636},\nyear = {1981},\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {11},\nnumber = {2},\npages = {109--125},\nauthor = {Kozo Sugiyama and Shojiro Tagawa and Mitsuhiko Toda},\ntitle = {Methods for Visual Understanding of Hierarchical System Structures},\njournal = {{IEEE} Transactions on Systems, Man, and Cybernetics}\n}",
             "Dataset Tag": [
@@ -561,7 +561,7 @@
             "Authors": [
                 "Ron Davidson and David Harel"
             ],
-            "year": "1996",
+            "Year": "1996",
             "Dataset Size": "13",
             "BibTex": "@article{davidson1996,\nauthor = {Davidson, Ron and Harel, David},\ntitle = {Drawing Graphs Nicely Using Simulated Annealing},\nyear = {1996},\nissue_date = {Oct. 1996},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {15},\nnumber = {4},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/234535.234538},\ndoi = {10.1145/234535.234538},\nabstract = {The paradigm of simulated annealing is applied to the problem of drawing graphs \u201cnicely.\u201d Our algorithm deals with general undirected graphs with straight-line edges, and employs several simple criteria for the aesthetic quality of the result. The algorithm is flexible, in that the relative weights of the criteria can be changed. For graphs of modest size it produces good results, competitive with those produced by other methods, notably, the \u201cspring method\u201d and its variants.},\njournal = {ACM Trans. Graph.},\nmonth = {oct},\npages = {301\u2013331},\nnumpages = {31},\nkeywords = {graph drawing, aesthetics, simulated annealing}\n}",
             "Dataset Tag": [
@@ -596,7 +596,7 @@
             "Authors": [
                 "Markus Chimani and Carsten Gutwenger and Petra Mutzel and Hoi-Ming Wong"
             ],
-            "year": "2008",
+            "Year": "2008",
             "Dataset Size": "11528 + 1158",
             "BibTex": "@article{chimani2010,\nauthor = {Chimani, Markus and Gutwenger, Carsten and Mutzel, Petra and Wong, Hoi-Ming},\ntitle = {Layer-Free Upward Crossing Minimization},\nyear = {2010},\nissue_date = {2010},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {15},\nissn = {1084-6654},\nurl = {https://doi.org/10.1145/1671970.1671975},\ndoi = {10.1145/1671970.1671975},\nabstract = {An upward drawing of a DAG G is a drawing of G in which all arcs are drawn as curves increasing monotonically in the vertical direction. In this article, we present a new approach for upward crossing minimization, that is, finding an upward drawing of a DAG G with as few crossings as possible. Our algorithm is based on a two-stage upward planarization approach, which computes a feasible upward planar subgraph in the first step and reinserts the remaining arcs by computing constraint-feasible upward insertion paths. An experimental study shows that the new algorithm leads to much better results than existing algorithms for upward crossing minimization, including the classical Sugiyama approach.},\njournal = {ACM J. Exp. Algorithmics},\nmonth = {mar},\narticleno = {2.2},\nnumpages = {27},\nkeywords = {planarization approach, Crossing number, upward drawing, upward planarization}\n}",
             "Dataset Tag": [
@@ -634,7 +634,7 @@
             "Authors": [
                 "Markus Chimani and Carsten Gutwenger and Petra Mutzel"
             ],
-            "year": "2006",
+            "Year": "2006",
             "Dataset Size": "11389",
             "BibTex": "@InProceedings{chimani2006,\nauthor=\"Chimani, Markus\nand Gutwenger, Carsten\nand Mutzel, Petra\",\neditor=\"{\\`A}lvarez, Carme\nand Serna, Mar{\\'i}a\",\ntitle=\"Experiments on Exact Crossing Minimization Using Column Generation\",\nbooktitle=\"Experimental Algorithms\",\nyear=\"2006\",\npublisher=\"Springer Berlin Heidelberg\",\naddress=\"Berlin, Heidelberg\",\npages=\"303--315\",\ndoi=\"10.1007/11764298_28\",\nabstract=\"The crossing number of a graph G is the smallest number of edge crossings in any drawing of G into the plane. Recently, the first branch-and-cut approach for solving the crossing number problem has been presented in [3]. Its major drawback was the huge number of variables out of which only very few were actually used in the optimal solution. This restricted the algorithm to rather small graphs with low crossing number.\",\nisbn=\"978-3-540-34598-5\"\n}",
             "Dataset Tag": [
@@ -668,7 +668,7 @@
             "Authors": [
                 "Christoph Buchheim and Markus Chimani and Dietmar Ebner and Carsten Gutwenger and Michael J\u00fcnger and Gunnar W Klau and Petra Mutzel and Ren\u00e9 Weiskircher"
             ],
-            "year": "2008",
+            "Year": "2008",
             "Dataset Size": "11389",
             "BibTex": "@article{Buchheim2008,\ndoi = {10.1016/j.disopt.2007.05.006},\nurl = {https://doi.org/10.1016/j.disopt.2007.05.006},\nyear = {2008},\nmonth = may,\npublisher = {Elsevier {BV}},\nvolume = {5},\nnumber = {2},\npages = {373--388},\nauthor = {Christoph Buchheim and Markus Chimani and Dietmar Ebner and Carsten Gutwenger and Michael J\\\"{u}nger and Gunnar W. Klau and Petra Mutzel and Ren{\\'{e}} Weiskircher},\ntitle = {A branch-and-cut approach to the crossing number problem},\njournal = {Discrete Optimization}\n}",
             "Dataset Tag": [
@@ -704,7 +704,7 @@
             "Authors": [
                 "Andreas Noack"
             ],
-            "year": "2006",
+            "Year": "2006",
             "Dataset Size": "4",
             "BibTex": "@InProceedings{noack2004,\nauthor=\"Noack, Andreas\",\neditor=\"Liotta, Giuseppe\",\ntitle=\"An Energy Model for Visual Graph Clustering\",\nbooktitle=\"Graph Drawing\",\nyear=\"2004\",\npublisher=\"Springer Berlin Heidelberg\",\naddress=\"Berlin, Heidelberg\",\npages=\"425--436\",\ndoi=\u201d10.1007/978-3-540-24595-7_40\u201d,\nabstract=\"We introduce an energy model whose minimum energy drawings reveal the clusters of the drawn graph. Here a cluster is a set of nodes with many internal edges and few edges to nodes outside the set. The drawings of the best-known force and energy models do not clearly show clusters for graphs whose diameter is small relative to the number of nodes. We formally characterize the minimum energy drawings of our energy model. This characterization shows in what sense the drawings separate clusters, and how the distance of separated clusters to the other nodes can be interpreted.\",\nisbn=\"978-3-540-24595-7\"\n}",
             "Dataset Tag": [
@@ -742,7 +742,7 @@
             "Authors": [
                 "Arlind Nocaj and Mark Ortmann  and Ulrik Brandes"
             ],
-            "year": "2015",
+            "Year": "2015",
             "Dataset Size": "52",
             "BibTex": "@article{nocaj2015,\ntitle={Untangling the Hairballs of Multi-Centered, Small-World Online Social Media Networks},\nyear={2015},\ndoi={10.7155/jgaa.00370},\nnumber={2},\nvolume={19},\njournal={Journal of Graph Algorithms and Applications : JGAA},\npages={595--618},\nauthor={Nocaj, Arlind and Ortmann, Mark and Brandes, Ulrik}\n}",
             "Dataset Tag": [
@@ -780,7 +780,7 @@
             "Authors": [
                 "Kieran Clancy and Michael Haythorpe and Alex Newcombe"
             ],
-            "year": "2019",
+            "Year": "2019",
             "Dataset Size": "140 + 14 + 7 + 7",
             "BibTex": "@article{Clancy2019,\ndoi = {10.7155/jgaa.00487},\nurl = {https://doi.org/10.7155/jgaa.00487},\nyear = {2019},\npublisher = {Journal of Graph Algorithms and Applications},\nvolume = {23},\nnumber = {2},\npages = {135--166},\nauthor = {Kieran Clancy and Michael Haythorpe and Alex Newcombe},\ntitle = {An effective crossing minimisation heuristic based on star insertion},\njournal = {Journal of Graph Algorithms and Applications}\n}",
             "Dataset Tag": [
@@ -817,7 +817,7 @@
             "Authors": [
                 "Michael J\u00fcnger\u00a0and\u00a0Petra Mutzel"
             ],
-            "year": "1997",
+            "Year": "1997",
             "Dataset Size": "220",
             "BibTex": "@Article{junger1997,\n\n        \u00a0\u00a0\u00a0author = {{Michael}  {J\u00fcnger} and {Petra}  {Mutzel}},\n\n        \u00a0\u00a0\u00a0title = {2-Layer Straightline Crossing Minimization: Performance of Exact and Heuristic Algorithms},\n\n        \u00a0\u00a0\u00a0journal = {Journal of Graph Algorithms and Applications},\n\n        \n            \u00a0\u00a0\u00a0year = {1997},\n\n            \u00a0\u00a0\u00a0volume = {1},\n\n            \u00a0\u00a0\u00a0number = {1},\n\n            \u00a0\u00a0\u00a0pages = {1--25},\n\n        \n        \u00a0\u00a0\u00a0doi = {10.7155/jgaa.00001}\n\n        }",
             "Dataset Tag": [
@@ -852,7 +852,7 @@
             "Authors": [
                 "Wilhelm Barth Petra Mutzel"
             ],
-            "year": "2004",
+            "Year": "2004",
             "Dataset Size": "2000 + 1400 + 2100",
             "BibTex": "@InProceedings{barth2002,\nauthor=\"Barth, Wilhelm\nand J{\\\"u}nger, Michael\nand Mutzel, Petra\",\neditor=\"Goodrich, Michael T.\nand Kobourov, Stephen G.\",\ntitle=\"Simple and Efficient Bilayer Cross Counting\",\nbooktitle=\"Graph Drawing\",\nyear=\"2002\",\npublisher=\"Springer Berlin Heidelberg\",\naddress=\"Berlin, Heidelberg\",\npages=\"130--141\",\ndoi=\u201d10.1007/3-540-36151-0_13\u201d,\nabstract=\"We consider the problem of counting the interior edge crossings when a bipartite graph G = (V,E) with node set V and edge set E is drawn such that the nodes of the two shores of the bipartition are drawn as distinct points on two parallel lines and the edges as straight line segments. The efficient solution of this problem is important in layered graph drawing. Our main observation is that it can be reduced to counting the inversions of a certain sequence. This leads to an O(\u2223E\u2223+\u2223C\u2223) algorithm, where C denotes the set of pairwise interior edge crossings, as well as to a simple O(\u2223E\u2223 log \u2223Vsmall\u2223) algorithm, where Vsmall is the smaller cardinality node set in the bipartition of the node set V of the graph. We present the algorithms and the results of computational experiments with these and other algorithms on a large collection of instances.\",\nisbn=\"978-3-540-36151-0\"\n}",
             "Dataset Tag": [
@@ -888,7 +888,7 @@
             "Authors": [
                 "Mathieu Jacomy and Tommaso Venturini and Sebastien Heymann and Mathieu Bastian"
             ],
-            "year": "2014",
+            "Year": "2014",
             "Dataset Size": "68",
             "BibTex": "@article{Jacomy2014,\ndoi = {10.1371/journal.pone.0098679},\nurl = {https://doi.org/10.1371/journal.pone.0098679},\nyear = {2014},\nmonth = jun,\npublisher = {Public Library of Science ({PLoS})},\nvolume = {9},\nnumber = {6},\npages = {e98679},\nauthor = {Mathieu Jacomy and Tommaso Venturini and Sebastien Heymann and Mathieu Bastian},\neditor = {Mark R. Muldoon},\ntitle = {{ForceAtlas}2, a Continuous Graph Layout Algorithm for Handy Network Visualization Designed for the Gephi Software},\njournal = {{PLoS} {ONE}}\n}",
             "Dataset Tag": [
@@ -925,7 +925,7 @@
             "Authors": [
                 "Georg Sander"
             ],
-            "year": "1996",
+            "Year": "1996",
             "Dataset Size": "4",
             "BibTex": "@TECHREPORT{Sander96,\n\u00a0\u00a0\u00a0\u00a0author = {Georg Sander},\n\u00a0\u00a0\u00a0\u00a0title = {Layout of Compound Directed Graphs},\n\u00a0\u00a0\u00a0\u00a0institution = {FB INFORMATIK, UNIVERSITAT DES SAARLANDES},\n\u00a0\u00a0\u00a0\u00a0year = {1996}\n}",
             "Dataset Tag": [
@@ -959,7 +959,7 @@
             "Authors": [
                 "Sandeep N. Bhatt and Frank Thomson Leighton"
             ],
-            "year": "1984",
+            "Year": "1984",
             "Dataset Size": "0",
             "BibTex": "@article{Bhatt1984,\ndoi = {10.1016/0022-0000(84)90071-0},\nurl = {https://doi.org/10.1016/0022-0000(84)90071-0},\nyear = {1984},\nmonth = apr,\npublisher = {Elsevier {BV}},\nvolume = {28},\nnumber = {2},\npages = {300--343},\nauthor = {Sandeep N. Bhatt and Frank Thomson Leighton},\ntitle = {A framework for solving {VLSI} graph layout problems},\njournal = {Journal of Computer and System Sciences}\n}",
             "Dataset Tag": [
@@ -992,7 +992,7 @@
             "Authors": [
                 "Giuseppe\u00a0Di Battista\u00a0and\u00a0Ashim\u00a0Garg\u00a0and\u00a0Giuseppe\u00a0Liotta\u00a0and\u00a0Roberto\u00a0Tamassia\u00a0 and\u00a0Emanuele\u00a0Tassinari\u00a0 and\u00a0Francesco\u00a0Vargiu"
             ],
-            "year": "1997",
+            "Year": "1997",
             "Dataset Size": "11582 + 112",
             "BibTex": "@article{DiBattista1997b,\ndoi = {10.1016/s0925-7721(96)00005-3},\nurl = {https://doi.org/10.1016/s0925-7721(96)00005-3},\nyear = {1997},\nmonth = apr,\npublisher = {Elsevier {BV}},\nvolume = {7},\nnumber = {5-6},\npages = {303--325},\nauthor = {Giuseppe Di Battista and Ashim Garg and Giuseppe Liotta and Roberto Tamassia and Emanuele Tassinari and Francesco Vargiu},\ntitle = {An experimental comparison of four graph drawing algorithms},\njournal = {Computational Geometry}\n}",
             "Dataset Tag": [
@@ -1030,7 +1030,7 @@
             "Authors": [
                 "Yu-Ru Lin and Jimeng Sun and Nan Cao and Shixia Liu"
             ],
-            "year": "2010",
+            "Year": "2010",
             "Dataset Size": "9",
             "BibTex": "@inproceedings{Lin2010,\ndoi = {10.1137/1.9781611972801.37},\nurl = {https://doi.org/10.1137/1.9781611972801.37},\nyear = {2010},\nmonth = apr,\npublisher = {Society for Industrial and Applied Mathematics},\nauthor = {Yu-Ru Lin and Jimeng Sun and Nan Cao and Shixia Liu},\ntitle = {{ContexTour}: Contextual Contour Visual Analysis on Dynamic Multi-Relational Clustering},\nbooktitle = {Proceedings of the 2010 {SIAM} International Conference on Data Mining}\n}",
             "Dataset Tag": [
@@ -1064,7 +1064,7 @@
             "Authors": [
                 "Y. Koren"
             ],
-            "year": "2005",
+            "Year": "2005",
             "Dataset Size": "14",
             "BibTex": "@article{KOREN20051867,\ntitle = {Drawing graphs by eigenvectors: theory and practice},\njournal = {Computers & Mathematics with Applications},\nvolume = {49},\nnumber = {11},\npages = {1867-1888},\nyear = {2005},\nissn = {0898-1221},\ndoi = {https://doi.org/10.1016/j.camwa.2004.08.015},\nurl = {https://www.sciencedirect.com/science/article/pii/S089812210500204X},\nauthor = {Y. Koren},\nkeywords = {Graph drawing, Laplacian, Eigenvectors, Fiedler vector, Force-directed layout, Spectral graph theory},\nabstract = {The spectral approach for graph visualization computes the layout of a graph using certain eigenvectors of related matrices. Two important advantages of this approach are an ability to compute optimal layouts (according to specific requirements) and a very rapid computation time. In this paper, we explore spectral visualization techniques and study their properties from different points of view. We also suggest a novel algorithm for calculating spectral layouts resulting in an extremely fast computation by optimizing the layout within a small vector space.}\n}",
             "Dataset Tag": [
@@ -1100,7 +1100,7 @@
             "Authors": [
                 "Markus Chimani and Tilo Wiedera"
             ],
-            "year": "2016",
+            "Year": "2016",
             "Dataset Size": "3110 + 1277 + 145",
             "BibTex": "@InProceedings{chimani2016b,\nauthor =\t{Markus Chimani and Tilo Wiedera},\ntitle =\t{{An ILP-based Proof System for the Crossing Number Problem}},\nbooktitle =\t{24th Annual European Symposium on Algorithms (ESA 2016)},\npages =\t{29:1--29:13},\nseries =\t{Leibniz International Proceedings in Informatics (LIPIcs)},\nISBN =\t{978-3-95977-015-6},\nISSN =\t{1868-8969},\nyear =\t{2016},\nvolume =\t{57},\neditor =\t{Piotr Sankowski and Christos Zaroliagis},\npublisher =\t{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},\naddress =\t{Dagstuhl, Germany},\nURL =\t{http://drops.dagstuhl.de/opus/volltexte/2016/6380},\nURN =\t{urn:nbn:de:0030-drops-63803},\ndoi =\t{10.4230/LIPIcs.ESA.2016.29},\nannote =\t{Keywords: automatic formal proof, crossing number, integer linear programming}\n}",
             "Dataset Tag": [
@@ -1138,7 +1138,7 @@
             "Authors": [
                 "Markus Chimani and Petra Mutzel and Immanuel Bomze"
             ],
-            "year": "2008",
+            "Year": "2008",
             "Dataset Size": "7172",
             "BibTex": "@incollection{Chimani2008,\ndoi = {10.1007/978-3-540-87744-8_24},\nurl = {https://doi.org/10.1007/978-3-540-87744-8_24},\npublisher = {Springer Berlin Heidelberg},\npages = {284--296},\nyear= {2008},\nauthor = {Markus Chimani and Petra Mutzel and Immanuel Bomze},\ntitle = {A New Approach to Exact Crossing Minimization},\nbooktitle = {Algorithms - {ESA} 2008}\n}",
             "Dataset Tag": [
@@ -1175,7 +1175,7 @@
             "Authors": [
                 "Kalpesh Padia and Kaveen Bandara and Christopher Healey"
             ],
-            "year": "2018",
+            "Year": "2018",
             "Dataset Size": "5",
             "BibTex": "@article{padia2018,\ndoi = {10.20380/GI2018.05},\nurl = {http://graphicsinterface.org/proceedings/gi2018/gi2018-5/},\nauthor = {Padia, Kalpesh and Bandara, Kaveen and Healey, Christopher},\nkeywords = {000 computer science, HTN Planning, Narratives, Storyline Visualization},\nlanguage = {en},\ntitle = {Yarn: Generating Storyline Visualizations Using HTN Planning},\njournal = {Proceedings of Graphics Interface 2018},\nvolume = {Toronto},\npages = {26--33},\npublisher = {Canadian Human-Computer Communications Society / Soci\u00e9t\u00e9 canadienne du dialogue humain-machine},\nyear = {2018},\ncopyright = {Permission is granted to quote short excerpts and to reproduce figures and tables from these proceed\u00adings, provided that the source of such material is fully acknowledged.}\n}",
             "Dataset Tag": [
@@ -1211,7 +1211,7 @@
             "Authors": [
                 "Kalpesh Padia and Kaveen Bandara and Christopher Healey"
             ],
-            "year": "2019",
+            "Year": "2019",
             "Dataset Size": "11",
             "BibTex": "@article{Padia2019,\ndoi = {10.1016/j.cag.2018.11.004},\nurl = {https://doi.org/10.1016/j.cag.2018.11.004},\nyear = {2019},\nmonth = feb,\npublisher = {Elsevier {BV}},\nvolume = {78},\npages = {64--75},\nauthor = {Kalpesh Padia and Kaveen Herath Bandara and Christopher G. Healey},\ntitle = {A system for generating storyline visualizations using hierarchical task network planning},\njournal = {Computers {\\&}amp$\\mathsemicolon$ Graphics}\n}",
             "Dataset Tag": [
@@ -1245,7 +1245,7 @@
             "Authors": [
                 "Yifan Hu"
             ],
-            "year": "2005",
+            "Year": "2005",
             "Dataset Size": "14",
             "BibTex": "@article{hu2005efficient,\n  added-at = {2011-07-08T11:21:47.000+0200},\n  author = {Hu, Y. F.},\n  biburl = {https://www.bibsonomy.org/bibtex/28795e3e18da30954cb774e155682e7fc/poeschko},\n  interhash = {4513c02b2911da498c87f3b545a192e9},\n  intrahash = {8795e3e18da30954cb774e155682e7fc},\n  journal = {The Mathematica Journal},\n  keywords = {directed drawing force graph visualization},\n  pages = {37-71},\n  timestamp = {2011-07-08T11:23:01.000+0200},\n  title = {Efficient and high quality force-directed graph drawing},\n  url = {http://www.mathematica-journal.com/issue/v10i1/contents/graph_draw/graph_draw.pdf},\n  volume = 10,\n  year = 2005\n}",
             "Dataset Tag": [
@@ -1290,7 +1290,7 @@
                 "S. and Telea",
                 "A. C."
             ],
-            "year": "2017",
+            "Year": "2017",
             "Dataset Size": "20",
             "BibTex": "@article{kruiger2017,\nauthor = {Kruiger, J. F. and Rauber, P. E. and Martins, R. M. and Kerren, A. and Kobourov, S. and Telea, A. C.},\ntitle = {Graph Layouts by t-SNE},\njournal = {Computer Graphics Forum},\nvolume = {36},\nnumber = {3},\npages = {283-294},\ndoi = {https://doi.org/10.1111/cgf.13187},\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13187},\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13187},\nabstract = {Abstract We propose a new graph layout method based on a modification of the t-distributed Stochastic Neighbor Embedding (t-SNE) dimensionality reduction technique. Although t-SNE is one of the best techniques for visualizing high-dimensional data as 2D scatterplots, t-SNE has not been used in the context of classical graph layout. We propose a new graph layout method, tsNET, based on representing a graph with a distance matrix, which together with a modified t-SNE cost function results in desirable layouts. We evaluate our method by a formal comparison with state-of-the-art methods, both visually and via established quality metrics on a comprehensive benchmark, containing real-world and synthetic graphs. As evidenced by the quality metrics and visual inspection, tsNET produces excellent layouts.},\nyear = {2017}\n}",
             "Dataset Tag": [
@@ -1326,7 +1326,7 @@
             "Authors": [
                 "Danny Holten and Jarke J. Van Wijk"
             ],
-            "year": "2009",
+            "Year": "2009",
             "Dataset Size": "2",
             "BibTex": "@article{Holten2009,\ndoi = {10.1111/j.1467-8659.2009.01450.x},\nurl = {https://doi.org/10.1111/j.1467-8659.2009.01450.x},\nyear = {2009},\nmonth = jun,\npublisher = {Wiley},\nvolume = {28},\nnumber = {3},\npages = {983--990},\nauthor = {Danny Holten and Jarke J. van Wijk},\ntitle = {Force-Directed Edge Bundling for Graph Visualization},\njournal = {Computer Graphics Forum}\n}",
             "Dataset Tag": [
@@ -1363,7 +1363,7 @@
             "Authors": [
                 "Martin Greilich and Michael Burch and Stephan Diehl   "
             ],
-            "year": "2009",
+            "Year": "2009",
             "Dataset Size": "1",
             "BibTex": "@article{greilich2009,\nauthor = {Greilich, Martin and Burch, Michael and Diehl, Stephan},\ntitle = {Visualizing the Evolution of Compound Digraphs with TimeArcTrees},\njournal = {Computer Graphics Forum},\nvolume = {28},\nnumber = {3},\npages = {975-982},\nkeywords = {Data Structures E.1: Graphs and Networks},\ndoi = {https://doi.org/10.1111/j.1467-8659.2009.01451.x},\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2009.01451.x},\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2009.01451.x},\nabstract = {Abstract Compound digraphs are a widely used model in computer science. In many application domains these models evolve over time. Only few approaches to visualize such dynamic compound digraphs exist and mostly use animation to show the dynamics. In this paper we present a new visualization tool called TimeArcTrees that visualizes weighted, dynamic compound digraphs by drawing a sequence of node-link diagrams in a single view. Compactness is achieved by aligning the nodes of a graph vertically. Edge crossings are reduced by drawing upward and downward edges separately as colored arcs. Horizontal alignment of the instances of the same node in different graphs facilitates comparison of the graphs in the sequence. Many interaction techniques allow to explore the given graphs. Smooth animation supports the user to better track the transitions between views and to preserve his or her mental map. We illustrate the usefulness of the tool by looking at the particular problem of how shortest paths evolve over time. To this end, we applied the system to an evolving graph representing the German Autobahn and its traffic jams.},\nyear = {2009}\n}",
             "Dataset Tag": [
@@ -1397,7 +1397,7 @@
             "Authors": [
                 "Fabian Beck and Michael Burch and Stephan Diehl and Daniel Weiskopf"
             ],
-            "year": "2014",
+            "Year": "2014",
             "Dataset Size": "NA",
             "BibTex": "@inproceedings {borgo2014,\nbooktitle = {EuroVis - STARs},\neditor = {R. Borgo and R. Maciejewski and I. Viola},\ntitle = {{The State of the Art in Visualizing Dynamic Graphs}},\nauthor = {Beck, Fabian and Burch, Michael and Diehl, Stephan and Weiskopf, Daniel},\nyear = {2014},\npublisher = {The Eurographics Association},\nISBN = {978-3-03868-028-4},\nDOI = {10.2312/eurovisstar.20141174}\n}",
             "Dataset Tag": [
@@ -1433,7 +1433,7 @@
             "Authors": [
                 "T. N. Dang and N. Pendar and A. G. Forbes"
             ],
-            "year": "2016",
+            "Year": "2016",
             "Dataset Size": "4",
             "BibTex": "@article{Dang2016,\ndoi = {10.1111/cgf.12882},\nurl = {https://doi.org/10.1111/cgf.12882},\nyear = {2016},\nmonth = jun,\npublisher = {Wiley},\nvolume = {35},\nnumber = {3},\npages = {61--69},\nauthor = {T. N. Dang and N. Pendar and A. G. Forbes},\ntitle = {{TimeArcs}: Visualizing Fluctuations in Dynamic Networks},\njournal = {Computer Graphics Forum}\n}",
             "Dataset Tag": [
@@ -1473,7 +1473,7 @@
             "Authors": [
                 "Sara Di Bartolomeo and Alexis Pister and Paolo Buono and Catherine Plaisant and Cody Dunne and Jean-Daniel Fekete"
             ],
-            "year": "2022",
+            "Year": "2022",
             "Dataset Size": "1300",
             "BibTex": "@article{diBartolomeo2022,\nauthor = {Di Bartolomeo, Sara and Pister, Alexis and Buono, Paolo and Plaisant, Catherine and Dunne, Cody and Fekete, Jean-Daniel},\ntitle = {Six methods for transforming layered hypergraphs to apply layered graph layout algorithms},\njournal = {Computer Graphics Forum},\nvolume = {41},\nnumber = {3},\npages = {259-270},\nkeywords = {CCS Concepts, \u2022 Human-centered computing \u2192 Graph drawings, Visualization theory, concepts and paradigms},\ndoi = {https://doi.org/10.1111/cgf.14538},\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14538},\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14538},\nabstract = {Abstract Hypergraphs are a generalization of graphs in which edges (hyperedges) can connect more than two vertices\u2014as opposed to ordinary graphs where edges involve only two vertices. Hypergraphs are a fairly common data structure but there is little consensus on how to visualize them. To optimize a hypergraph drawing for readability, we need a layout algorithm. Common graph layout algorithms only consider ordinary graphs and do not take hyperedges into account. We focus on layered hypergraphs, a particular class of hypergraphs that, like layered graphs, assigns every vertex to a layer, and the vertices in a layer are drawn aligned on a linear axis with the axes arranged in parallel. In this paper, we propose a general method to apply layered graph layout algorithms to layered hypergraphs. We introduce six different transformations for layered hypergraphs. The choice of transformation affects the subsequent graph layout algorithm in terms of computational performance and readability of the results. Thus, we perform a comparative evaluation of these transformations in terms of number of crossings, edge length, and impact on performance. We also provide two case studies showing how our transformations can be applied to real-life use cases. A copy of this paper with all appendices and supplemental material is available at http://osf.io/grvwu.%7D,\nyear = {2022}\n}",
             "Dataset Tag": [
@@ -1512,7 +1512,7 @@
             "Authors": [
                 "Giuseppe Di Battista and Ashim Garg and Giuseppe Liotta and Armando Parise and Roberto Tamassia and Emanuele Tassinari and Francesco Vargiu and Luca Vismara"
             ],
-            "year": "1996",
+            "Year": "1996",
             "Dataset Size": "1158 + 813",
             "BibTex": "@article{DIBATTISTA2000,\ndoi = {10.1142/s0218195900000358},\nurl = {https://doi.org/10.1142/s0218195900000358},\nyear = {2000},\nmonth = dec,\npublisher = {World Scientific Pub Co Pte Lt},\nvolume = {10},\nnumber = {06},\npages = {623--648},\nauthor = {GIUSEPPE DI BATTISTA and ASHIM GARG and GIUSEPPE LIOTTA and ARMANDO PARISE and ROBERTO TAMASSIA and EMANUELE TASSINARI and FRANCESCO VARGIU and LUCA VISMARA},\ntitle = {{DRAWING} {DIRECTED} {ACYCLIC} {GRAPHS}: {AN} {EXPERIMENTAL} {STUDY}},\njournal = {International Journal of Computational Geometry {\\&}amp$\\mathsemicolon$ Applications}\n}",
             "Dataset Tag": [
@@ -1548,7 +1548,7 @@
                 "Corinna Vehlow",
                 "Fabian Beck and Daniel Weiskopf"
             ],
-            "year": "2017",
+            "Year": "2017",
             "Dataset Size": "NA",
             "BibTex": "@article{eades84,\nadded-at = {2009-09-10T14:36:22.000+0200},\nauthor = {Eades, P.},\nbiburl = {https://www.bibsonomy.org/bibtex/2ec89913d51521841d27fe37260c17c65/gregoryy},\nbooktitle = {Congressus Numerantium, 42, 149-160.},\ninterhash = {4f55373bed5e90027541122c2b163647},\nintrahash = {ec89913d51521841d27fe37260c17c65},\njournal = {Congressus Numerantium},\nkeywords = {imported},\nowner = {heinrich},\npages = {149-160},\ntimestamp = {2009-09-10T14:36:48.000+0200},\ntitle = {A heuristic for graph drawing},\nvolume = 42,\nyear = 1984\n}",
             "Dataset Tag": [
@@ -1583,7 +1583,7 @@
             "Authors": [
                 "Przemyslaw A Grabowicz and Luca Maria Aiello\u00a0and\u00a0Filippo Menczer"
             ],
-            "year": "2014",
+            "Year": "2014",
             "Dataset Size": "4",
             "BibTex": "@article{Grabowicz2014,\ndoi = {10.1140/epjds/s13688-014-0027-8},\nurl = {https://doi.org/10.1140/epjds/s13688-014-0027-8},\nyear = {2014},\nmonth = oct,\npublisher = {Springer Science and Business Media {LLC}},\nvolume = {3},\nnumber = {1},\nauthor = {Przemyslaw A Grabowicz and Luca Maria Aiello and Filippo Menczer},\ntitle = {Fast filtering and animation of large dynamic networks},\njournal = {{EPJ} Data Science}\n}",
             "Dataset Tag": [
@@ -1623,7 +1623,7 @@
             "Authors": [
                 "Arne Frick and Andreas Ludwig and Heiko Mehldau,"
             ],
-            "year": "1995",
+            "Year": "1995",
             "Dataset Size": "30",
             "BibTex": "@InProceedings{frick1995,\nauthor=\"Frick, Arne\nand Ludwig, Andreas\nand Mehldau, Heiko\",\neditor=\"Tamassia, Roberto\nand Tollis, Ioannis G.\",\ntitle=\"A fast adaptive layout algorithm for undirected graphs (extended abstract and system demonstration)\",\nbooktitle=\"Graph Drawing\",\nyear=\"1995\",\npublisher=\"Springer Berlin Heidelberg\",\naddress=\"Berlin, Heidelberg\",\npages=\"388--403\",\ndoi=\u201d10.1007/3-540-58950-3_393\u201d,\nabstract=\"We present a randomized adaptive layout algorithm for nicely drawing undirected graphs that is based on the spring-embedder paradigm and contains several new heuristics to improve the convergence, including local temperatures, gravitational forces and the detection of rotations and oscillations. The proposed algorithm achieves drawings of high quality on a wide range of graphs with standard settings. Moreover, the algorithm is fast, being thus applicable on general undirected graphs of substantially larger size and complexity than before [9, 6, 3]. Aesthetically pleasing solutions are found in most cases. We give empirical data for the running time of the algorithm and the quality of the computed layouts.\",\nisbn=\"978-3-540-49155-2\"\n}",
             "Dataset Tag": [
@@ -1657,7 +1657,7 @@
             "Authors": [
                 "Ulrik Brandes and Christian Pich"
             ],
-            "year": "2008",
+            "Year": "2008",
             "Dataset Size": "11",
             "BibTex": "@InProceedings{brandes2009,\nauthor=\"Brandes, Ulrik\nand Pich, Christian\",\neditor=\"Tollis, Ioannis G.\nand Patrignani, Maurizio\",\ntitle=\"An Experimental Study on Distance-Based Graph Drawing\",\nbooktitle=\"Graph Drawing\",\nyear=\"2009\",\npublisher=\"Springer Berlin Heidelberg\",\naddress=\"Berlin, Heidelberg\",\npages=\"218--229\",\ndoi=\u201d10.1007/978-3-642-00219-9_21\u201d,\nabstract=\"In numerous application areas, general undirected graphs need to be drawn, and force-directed layout appears to be the most frequent choice. We present an extensive experimental study showing that, if the goal is to represent the distances in a graph well, a combination of two simple algorithms based on variants of multidimensional scaling is to be preferred because of their efficiency, reliability, and even simplicity. We also hope that details in the design of our study help advance experimental methodology in algorithm engineering and graph drawing, independent of the case at hand.\",\nisbn=\"978-3-642-00219-9\"\n}",
             "Dataset Tag": [
@@ -1692,7 +1692,7 @@
                 "Pawel Gajer and Stephen G. Kobourov",
                 ""
             ],
-            "year": "2000",
+            "Year": "2000",
             "Dataset Size": "NA",
             "BibTex": "@inproceedings{pawel2000,\nauthor = {Gajer, Pawel and Kobourov, Stephen G.},\ntitle = {GRIP: Graph DRawing with Intelligent Placement},\nyear = {2000},\nisbn = {3540415548},\npublisher = {Springer-Verlag},\naddress = {Berlin, Heidelberg},\ndoi=\u201d10.5555/647552.729406\u201d,\nabstract = {This paper describes a system for Graph dRawing with Intelligent Placement, GRIP. The system is designed for drawing large graphs and uses a novel multi-dimensional force-directed method together with fast energy function minimization. The system allows for drawing graphs with tens of thousands of vertices in under a minute on a mid-range PC. To the best of the authors' knowledge GRIP surpasses the fastest previous algorithms. However, speed is not achieved at the expense of quality as the resulting drawings are quite aesthetically pleasing.},\nbooktitle = {Proceedings of the 8th International Symposium on Graph Drawing},\npages = {222\u2013228},\nnumpages = {7},\nseries = {GD '00}\n}",
             "Dataset Tag": [
@@ -1727,7 +1727,7 @@
             "Authors": [
                 "Stefan Hachul and Michael J\\\"{u}nger"
             ],
-            "year": "2004",
+            "Year": "2004",
             "Dataset Size": "N/A",
             "BibTex": "@InProceedings{hachul2004,\nauthor=\"Hachul, Stefan\nand J{\\\"u}nger, Michael\",\neditor=\"Pach, J{\\'a}nos\",\ntitle=\"Drawing Large Graphs with a Potential-Field-Based Multilevel Algorithm\",\nbooktitle=\"Graph Drawing\",\nyear=\"2005\",\ndoi=\u201d10.1007/978-3-540-31843-9_29\u201d,\npublisher=\"Springer Berlin Heidelberg\",\naddress=\"Berlin, Heidelberg\",\npages=\"285--295\",\nabstract=\"Force-directed graph drawing algorithms are widely used for drawing general graphs. However, these methods do not guarantee a sub-quadratic running time in general. We present a new force-directed method that is based on a combination of an efficient multilevel scheme and a strategy for approximating the repulsive forces in the system by rapidly evaluating potential fields. Given a graph G=(V,E), the asymptotic worst case running time of this method is O(|V|log|V|{\\thinspace}+{\\thinspace}|E|) with linear memory requirements. In practice, the algorithm generates nice drawings of graphs containing 100000 nodes in less than 5 minutes. Furthermore, it clearly visualizes even the structures of those graphs that turned out to be challenging for some other methods.\",\nisbn=\"978-3-540-31843-9\"\n}",
             "Dataset Tag": [
@@ -1765,7 +1765,7 @@
             "Authors": [
                 "David Harel and Yehuda Koren"
             ],
-            "year": "2002",
+            "Year": "2002",
             "Dataset Size": "14",
             "BibTex": "@InProceedings{harel2001,\nauthor=\"Harel, David\nand Koren, Yehuda\",\neditor=\"Marks, Joe\",\ntitle=\"A Fast Multi-scale Method for Drawing Large Graphs\",\nbooktitle=\"Graph Drawing\",\nyear=\"2001\",\npublisher=\"Springer Berlin Heidelberg\",\naddress=\"Berlin, Heidelberg\",\npages=\"183--196\",\ndoi=\u201d10.1007/3-540-44541-2_18\u201d,\nabstract=\"We present a multi-scale layout algorithm for the aesthetic drawing of undirected graphs with straight-line edges. The algorithm is extremely fast, and is capable of drawing graphs of substantially larger size than any other algorithm we are aware of. For example, the algorithm achieves optimal drawings of 1000 vertex graphs in about 2 seconds. The paper contains graphs with over 6000 nodes. The proposed algorithm embodies a new multi-scale scheme for drawing graphs, which was motivated by the recently published multi-scale algorithm of Hadany and Harel [7]. It can significantly improve the speed of essentially any force-directed method (regardless of that method's ability of drawing weighted graphs or the continuity of its cost-function).\",\nisbn=\"978-3-540-44541-8\"\n}",
             "Dataset Tag": [
@@ -1801,7 +1801,7 @@
                 "Walshaw",
                 "C."
             ],
-            "year": "2002",
+            "Year": "2002",
             "Dataset Size": "8",
             "BibTex": "@InProceedings{walshaw2001,\nauthor=\"Walshaw, C.\",\neditor=\"Marks, Joe\",\ntitle=\"A Multilevel Algorithm for Force-Directed Graph Drawing\",\nbooktitle=\"Graph Drawing\",\nyear=\"2001\",\npublisher=\"Springer Berlin Heidelberg\",\naddress=\"Berlin, Heidelberg\",\npages=\"171--182\",\nabstract=\"We describe a heuristic method for drawing graphs which uses a multilevel technique combined with a force-directed placement algorithm. The multilevel process groups vertices to form clusters, uses the clusters to define a new graph and is repeated until the graph size falls below some threshold. The coarsest graph is then given an initial layout and the layout is successively refined on all the graphs starting with the coarsest and ending with the original. In this way the multilevel algorithm both accelerates and gives a more global quality to the force- directed placement. The algorithm can compute both 2 {\\&} 3 dimensional layouts and we demonstrate it on a number of examples ranging from 500 to 225,000 vertices. It is also very fast and can compute a 2D layout of a sparse graph in around 30 seconds for a 10,000 vertex graph to around 10 minutes for the largest graph. This is an order of magnitude faster than recent implementations of force-directed placement algorithms.\",\nisbn=\"978-3-540-44541-8\"\n}",
             "Dataset Tag": [
@@ -1835,7 +1835,7 @@
             "Authors": [
                 "Ali Civril and Malik Magdon-Ismail and Eli Bocek-Rivele"
             ],
-            "year": "2006",
+            "Year": "2006",
             "Dataset Size": "22",
             "BibTex": "@InProceedings{civril2006,\nauthor=\"Civril, Ali\nand Magdon-Ismail, Malik\nand Bocek-Rivele, Eli\",\neditor=\"Healy, Patrick\nand Nikolov, Nikola S.\",\ntitle=\"SDE: Graph Drawing Using Spectral Distance Embedding\",\nbooktitle=\"Graph Drawing\",\nyear=\"2006\",\npublisher=\"Springer Berlin Heidelberg\",\naddress=\"Berlin, Heidelberg\",\npages=\"512--513\",\ndoi=\u201d10.1007/11618058_48\u201d,\nabstract=\"We present a novel graph drawing algorithm which uses a spectral decomposition of the distance matrix to approximate the graph theoretical distances. The algorithm preserves symmetry and node densities, i.e., the drawings are aesthetically pleasing. The runtime for typical 20,000 node graphs ranges from 100 to 150 seconds.\",\nisbn=\"978-3-540-31667-1\"\n}",
             "Dataset Tag": [
@@ -1870,7 +1870,7 @@
             "Authors": [
                 "Ulrik Brandes and Christian Pich"
             ],
-            "year": "2006",
+            "Year": "2006",
             "Dataset Size": "17",
             "BibTex": "@inproceedings{brandes2006,\nauthor = {Brandes, Ulrik and Pich, Christian},\ntitle = {Eigensolver Methods for Progressive Multidimensional Scaling of Large Data},\nyear = {2006},\nisbn = {9783540709039},\npublisher = {Springer-Verlag},\naddress = {Berlin, Heidelberg},\ndoi=\u201d10.5555/1758612.1758620\u201d,\nabstract = {We present a novel sampling-based approximation technique for classical multidimensional scaling that yields an extremely fast layout algorithm suitable even for very large graphs. It produces layouts that compare favorably with other methods for drawing large graphs, and it is among the fastest methods available. In addition, our approach allows for progressive computation, i.e. a rough approximation of the layout can be produced even faster, and then be refined until satisfaction.},\nbooktitle = {Proceedings of the 14th International Conference on Graph Drawing},\npages = {42\u201353},\nnumpages = {12},\nlocation = {Karlsruhe, Germany},\nseries = {GD'06}\n}",
             "Dataset Tag": [
@@ -1906,7 +1906,7 @@
             "Authors": [
                 "Emden R. Gansner and Yehuda Koren"
             ],
-            "year": "2006",
+            "Year": "2006",
             "Dataset Size": "12134",
             "BibTex": "@incollection{Gansner2006,\ndoi = {10.1007/978-3-540-70904-6_37},\nurl = {https://doi.org/10.1007/978-3-540-70904-6_37},\nyear={2006},\npublisher = {Springer Berlin Heidelberg},\npages = {386--398},\nauthor = {Emden R. Gansner and Yehuda Koren},\ntitle = {Improved Circular Layouts},\nbooktitle = {Graph Drawing}\n}",
             "Dataset Tag": [
@@ -1941,7 +1941,7 @@
             "Authors": [
                 "Emden R. Gansner and Yehuda Koren and Stephen North"
             ],
-            "year": "2005",
+            "Year": "2005",
             "Dataset Size": "6",
             "BibTex": "@incollection{Gansner2005,\ndoi = {10.1007/978-3-540-31843-9_25},\nurl = {https://doi.org/10.1007/978-3-540-31843-9_25},\nyear = {2005},\npublisher = {Springer Berlin Heidelberg},\npages = {239--250},\nauthor = {Emden R. Gansner and Yehuda Koren and Stephen North},\ntitle = {Graph Drawing by Stress Majorization},\nbooktitle = {Graph Drawing}\n}",
             "Dataset Tag": [
@@ -1976,7 +1976,7 @@
             "Authors": [
                 "Stefan Hachul and Michael J\\\"{u}nger"
             ],
-            "year": "2004",
+            "Year": "2004",
             "Dataset Size": "5",
             "BibTex": "@incollection{Hachul2005,\ndoi = {10.1007/978-3-540-31843-9_29},\nurl = {https://doi.org/10.1007/978-3-540-31843-9_29},\nyear = {2005},\npublisher = {Springer Berlin Heidelberg},\npages = {285--295},\nauthor = {Stefan Hachul and Michael J\\\"{u}nger},\ntitle = {Drawing Large Graphs with a Potential-Field-Based Multilevel Algorithm},\nbooktitle = {Graph Drawing}\n}",
             "Dataset Tag": [
@@ -2012,7 +2012,7 @@
             "Authors": [
                 "Michael R. Marner and Ross T. Smith and Bruce H. Thomas and Karsten Klein and Peter Eades and Seok-Hee Hong"
             ],
-            "year": "2014",
+            "Year": "2014",
             "Dataset Size": "8",
             "BibTex": "@incollection{Marner2014,\ndoi = {10.1007/978-3-662-45803-7_10},\nurl = {https://doi.org/10.1007/978-3-662-45803-7_10},\nyear = {2014},\npublisher = {Springer International Publishing},\npages = {113--124},\nauthor = {Michael R. Marner and Ross T. Smith and Bruce H. Thomas and Karsten Klein and Peter Eades and Seok-Hee Hong},\ntitle = {{GION}: Interactively Untangling Large Graphs on Wall-Sized Displays},\nbooktitle = {Progress in Pattern Recognition, Image Analysis, Computer Vision, and Applications}\n}",
             "Dataset Tag": [
@@ -2046,7 +2046,7 @@
             "Authors": [
                 "Malte Skambath and Till Tantau"
             ],
-            "year": "2016",
+            "Year": "2016",
             "Dataset Size": "NA",
             "BibTex": "@incollection{Skambath2016,\ndoi = {10.1007/978-3-319-50106-2_44},\nurl = {https://doi.org/10.1007/978-3-319-50106-2_44},\nyear = {2016},\npublisher = {Springer International Publishing},\npages = {572--586},\nauthor = {Malte Skambath and Till Tantau},\ntitle = {Offline Drawing of Dynamic Trees: Algorithmics and Document Integration},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2082,7 +2082,7 @@
             "Authors": [
                 "Thomas C. van Dijk and Martin Fink and Norbert Fischer and Fabian Lipp and Peter Markfelder and Alexander Ravsky and Subhash Suri and Alexander Wolff"
             ],
-            "year": "2016",
+            "Year": "2016",
             "Dataset Size": "1000",
             "BibTex": "@incollection{vanDijk2016,\ndoi = {10.1007/978-3-319-50106-2_30},\nurl = {https://doi.org/10.1007/978-3-319-50106-2_30},\nyear = {2016},\npublisher = {Springer International Publishing},\npages = {382--398},\nauthor = {Thomas C. van Dijk and Martin Fink and Norbert Fischer and Fabian Lipp and Peter Markfelder and Alexander Ravsky and Subhash Suri and Alexander Wolff},\ntitle = {Block Crossings in Storyline Visualizations},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2116,7 +2116,7 @@
             "Authors": [
                 "Markus Chimani and Karsten Klein and Tilo Wiedera"
             ],
-            "year": "2016",
+            "Year": "2016",
             "Dataset Size": "9558",
             "BibTex": "@InProceedings{chimani2016,\nauthor=\"Chimani, Markus\nand Klein, Karsten\nand Wiedera, Tilo\",\neditor=\"Hu, Yifan\nand N{\\\"o}llenburg, Martin\",\ntitle=\"A Note on the Practicality of Maximal Planar Subgraph Algorithms\",\nbooktitle=\"Graph Drawing and Network Visualization\",\nyear=\"2016\",\npublisher=\"Springer International Publishing\",\naddress=\"Cham\",\npages=\"357--364\",\nabstract=\"Given a graph G, the NP-hard Maximum Planar Subgraph problem (MPS) asks for a planar subgraph of G with the maximum number of edges. There are several heuristic, approximative, and exact algorithms to tackle the problem, but---to the best of our knowledge---they have never been compared competitively in practice.\",\nisbn=\"978-3-319-50106-2\"\n}",
             "Dataset Tag": [
@@ -2156,7 +2156,7 @@
             "Authors": [
                 "Martin Gronemann"
             ],
-            "year": "2016",
+            "Year": "2016",
             "Dataset Size": "NA",
             "BibTex": "@incollection{Gronemann2016,\ndoi = {10.1007/978-3-319-50106-2_18},\nurl = {https://doi.org/10.1007/978-3-319-50106-2_18},\nyear = {2016},\npublisher = {Springer International Publishing},\npages = {222--235},\nauthor = {Martin Gronemann},\ntitle = {Bitonic st-orderings for Upward Planar Graphs},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2191,7 +2191,7 @@
             "Authors": [
                 "Adalat Jabrayilov and Sven Mallach and Petra Mutzel and Ulf R\u00fcegg and Reinhard von Hanxleden"
             ],
-            "year": "2016",
+            "Year": "2016",
             "Dataset Size": "486",
             "BibTex": "@incollection{Jabrayilov2016,\n  doi = {10.1007/978-3-319-50106-2_17},\n  url = {https://doi.org/10.1007/978-3-319-50106-2_17},\n  year = {2016},\n  publisher = {Springer International Publishing},\n  pages = {209--221},\n  author = {Adalat Jabrayilov and Sven Mallach and Petra Mutzel and Ulf R\\\"{u}egg and Reinhard von Hanxleden},\n  title = {Compact Layered Drawings of General Directed Graphs},\n  booktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2228,7 +2228,7 @@
             "Authors": [
                 "Ulf R\u00fcegg and Thorsten Ehlers and Miro Sp\u00f6nemann and Reinhard von Hanxleden"
             ],
-            "year": "2016",
+            "Year": "2016",
             "Dataset Size": "146 + 160",
             "BibTex": "@incollection{Regg2016,\ndoi = {10.1007/978-3-319-50106-2_16},\nurl = {https://doi.org/10.1007/978-3-319-50106-2_16},\nyear = {2016},\npublisher = {Springer International Publishing},\npages = {196--208},\nauthor = {Ulf R\\\"{u}egg and Thorsten Ehlers and Miro Sp\\\"{o}nemann and Reinhard von Hanxleden},\ntitle = {A Generalization of the Directed Graph Layering Problem},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2263,7 +2263,7 @@
             "Authors": [
                 "Carla Binucci and Markus Chimani and Walter Didimo and Giuseppe Liotta and Fabrizio Montecchiani"
             ],
-            "year": "2016",
+            "Year": "2016",
             "Dataset Size": "1275 + 60",
             "BibTex": "@incollection{Binucci2016,\n  doi = {10.1007/978-3-319-50106-2_4},\n  url = {https://doi.org/10.1007/978-3-319-50106-2_4},\n  year = {2016},\n  publisher = {Springer International Publishing},\n  pages = {44--51},\n  author = {Carla Binucci and Markus Chimani and Walter Didimo and Giuseppe Liotta and Fabrizio Montecchiani},\n  title = {Placing Arrows in Directed Graph Drawings},\n  booktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2297,7 +2297,7 @@
             "Authors": [
                 "Lev Nachmanson and Arlind Nocaj and Sergey Bereg and Leishi Zhang and Alexander Holroyd"
             ],
-            "year": "2016",
+            "Year": "2016",
             "Dataset Size": "10077",
             "BibTex": "@article{Nachmanson2017,\n  doi = {10.7155/jgaa.00442},\n  url = {https://doi.org/10.7155/jgaa.00442},\n  year = {2017},\n  publisher = {Journal of Graph Algorithms and Applications},\n  volume = {21},\n  number = {5},\n  pages = {857--872},\n  author = {Lev Nachmanson and Arlind Nocaj and Sergey Bereg and Leishi Zhang and Alexander Holroyd},\n  title = {Node Overlap Removal by Growing a Tree},\n  journal = {Journal of Graph Algorithms and Applications}\n}",
             "Dataset Tag": [
@@ -2335,7 +2335,7 @@
             "Authors": [
                 "Mark Ortmann and Mirza Klimenta and Ulrik Brandes"
             ],
-            "year": "2016",
+            "Year": "2016",
             "Dataset Size": "13",
             "BibTex": "@article{Ortmann2017,\ndoi = {10.7155/jgaa.00440},\nurl = {https://doi.org/10.7155/jgaa.00440},\nyear = {2017},\npublisher = {Journal of Graph Algorithms and Applications},\nvolume = {21},\nnumber = {5},\npages = {791--821},\nauthor = {Mark Ortmann and Mirza Klimenta and Ulrik Brandes},\ntitle = {A Sparse Stress Model},\njournal = {Journal of Graph Algorithms and Applications}\n}",
             "Dataset Tag": [
@@ -2371,7 +2371,7 @@
             "Authors": [
                 "Paolo Simonetto and Daniel Archambault and Stephen Kobourov"
             ],
-            "year": "2017",
+            "Year": "2017",
             "Dataset Size": "5",
             "BibTex": "@incollection{Simonetto2018,\n  doi = {10.1007/978-3-319-73915-1_31},\n  url = {https://doi.org/10.1007/978-3-319-73915-1_31},\n  year = {2018},\n  publisher = {Springer International Publishing},\n  pages = {394--409},\n  author = {Paolo Simonetto and Daniel Archambault and Stephen Kobourov},\n  title = {Drawing Dynamic Graphs Without Timeslices},\n  booktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2408,7 +2408,7 @@
             "Authors": [
                 "Jieting Wu and Jianping Zeng and Feiyu Zhu and Hongfeng Yu"
             ],
-            "year": "2017",
+            "Year": "2017",
             "Dataset Size": "4",
             "BibTex": "@incollection{Wu2018,\ndoi = {10.1007/978-3-319-73915-1_30},\nurl = {https://doi.org/10.1007/978-3-319-73915-1_30},\nyear = {2018},\npublisher = {Springer International Publishing},\npages = {379--393},\nauthor = {Jieting Wu and Jianping Zeng and Feiyu Zhu and Hongfeng Yu},\ntitle = {{MLSEB}: Edge Bundling Using Moving Least Squares Approximation},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2446,7 +2446,7 @@
             "Authors": [
                 "Thomas C. van Dijk and Fabian Lipp and Peter Markfelder and Alexander Wolff"
             ],
-            "year": "2017",
+            "Year": "2017",
             "Dataset Size": "103",
             "BibTex": "@incollection{vanDijk2018,\ndoi = {10.1007/978-3-319-73915-1_29},\nurl = {https://doi.org/10.1007/978-3-319-73915-1_29},\nyear = {2018},\npublisher = {Springer International Publishing},\npages = {365--378},\nauthor = {Thomas C. van Dijk and Fabian Lipp and Peter Markfelder and Alexander Wolff},\ntitle = {Computing Storyline Visualizations with Few Block Crossings},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2481,7 +2481,7 @@
             "Authors": [
                 "Mukund Raj and Ross T. Whitaker"
             ],
-            "year": "2017",
+            "Year": "2017",
             "Dataset Size": "3",
             "BibTex": "@incollection{Raj2018,\ndoi = {10.1007/978-3-319-73915-1_28},\nurl = {https://doi.org/10.1007/978-3-319-73915-1_28},\nyear = {2018},\npublisher = {Springer International Publishing},\npages = {351--364},\nauthor = {Mukund Raj and Ross T. Whitaker},\ntitle = {Anisotropic Radial Layout for Visualizing Centrality and Structure in Graphs},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2517,7 +2517,7 @@
             "Authors": [
                 "Tiziana Calamoneri and Valentino Di Donato and Diego Mariottini and Maurizio Patrignani"
             ],
-            "year": "2017",
+            "Year": "2017",
             "Dataset Size": "16",
             "BibTex": "@incollection{Calamoneri2018,\ndoi = {10.1007/978-3-319-73915-1_27},\nurl = {https://doi.org/10.1007/978-3-319-73915-1_27},\nyear = {2018},\npublisher = {Springer International Publishing},\npages = {334--347},\nauthor = {Tiziana Calamoneri and Valentino Di Donato and Diego Mariottini and Maurizio Patrignani},\ntitle = {Visualizing Co-phylogenetic Reconciliations},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2552,7 +2552,7 @@
             "Authors": [
                 "Peter Eades and Quan Nguyen and Seok-Hee Hong"
             ],
-            "year": "2017",
+            "Year": "2017",
             "Dataset Size": "26",
             "BibTex": "@incollection{Eades2018,\ndoi = {10.1007/978-3-319-73915-1_22},\nurl = {https://doi.org/10.1007/978-3-319-73915-1_22},\nyear = {2018},\npublisher = {Springer International Publishing},\npages = {272--286},\nauthor = {Peter Eades and Quan Nguyen and Seok-Hee Hong},\ntitle = {Drawing Big Graphs Using Spectral Sparsification},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2592,7 +2592,7 @@
             "Authors": [
                 "Kathrin Ballweg and Margit Pohl and G\u00fcnter Wallner and Tatiana von Landesberger"
             ],
-            "year": "2017",
+            "Year": "2017",
             "Dataset Size": "69",
             "BibTex": "@Article{Ballweg2018,\n\n        \u00a0\u00a0\u00a0author = {{Kathrin}  {Ballweg} and {Margit}  {Pohl} and {G\u00fcnter}  {Wallner} and {Tatiana}  {von Landesberger}},\n\n        \u00a0\u00a0\u00a0title = {Visual Similarity Perception of Directed Acyclic \nGraphs: A Study on Influencing Factors and Similarity Judgment \nStrategies},\n\n        \u00a0\u00a0\u00a0journal = {Journal of Graph Algorithms and Applications},\n\n        \n            \u00a0\u00a0\u00a0year = {2018},\n\n            \u00a0\u00a0\u00a0volume = {22},\n\n            \u00a0\u00a0\u00a0number = {3},\n\n            \u00a0\u00a0\u00a0pages = {519--553},\n\n        \n        \u00a0\u00a0\u00a0doi = {10.7155/jgaa.00467}\n\n        }",
             "Dataset Tag": [
@@ -2627,7 +2627,7 @@
             "Authors": [
                 "Jonathan Klawitter and Tamara Mchedlidze and Martin Nollenburg"
             ],
-            "year": "2017",
+            "Year": "2017",
             "Dataset Size": "1800",
             "BibTex": "@incollection{Klawitter2018,\n  doi = {10.1007/978-3-319-73915-1_19},\n  url = {https://doi.org/10.1007/978-3-319-73915-1_19},\n  year = {2018},\n  publisher = {Springer International Publishing},\n  pages = {224--238},\n  author = {Jonathan Klawitter and Tamara Mchedlidze and Martin N\\\"{o}llenburg},\n  title = {Experimental Evaluation of Book Drawing Algorithms},\n  booktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2662,7 +2662,7 @@
             "Authors": [
                 "Therese Biedl and Veronika Irvine"
             ],
-            "year": "2017",
+            "Year": "2017",
             "Dataset Size": "0",
             "BibTex": "@incollection{Biedl2018,\ndoi = {10.1007/978-3-319-73915-1_12},\nurl = {https://doi.org/10.1007/978-3-319-73915-1_12},\nyear = {2018},\npublisher = {Springer International Publishing},\npages = {140--152},\nauthor = {Therese Biedl and Veronika Irvine},\ntitle = {Drawing Bobbin Lace Graphs, or, Fundamental Cycles for a Subclass of Periodic Graphs},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2696,7 +2696,7 @@
             "Authors": [
                 "Philipp Kindermann and Wouter Meulemans and Andre Schulz"
             ],
-            "year": "2017",
+            "Year": "2017",
             "Dataset Size": "92",
             "BibTex": "@article{Kindermann2018,\n  doi = {10.7155/jgaa.00474},\n  url = {https://doi.org/10.7155/jgaa.00474},\n  year = {2018},\n  publisher = {Journal of Graph Algorithms and Applications},\n  volume = {22},\n  number = {3},\n  pages = {501--518},\n  author = {Philipp Kindermann and Wouter Meulemans and Andr{\\'{e}} Schulz},\n  title = {Experimental Analysis of the Accessibility of Drawings with Few Segments},\n  journal = {Journal of Graph Algorithms and Applications}\n}",
             "Dataset Tag": [
@@ -2732,7 +2732,7 @@
             "Authors": [
                 "Niklas Heinsohn and Michael Kaufmann"
             ],
-            "year": "2017",
+            "Year": "2017",
             "Dataset Size": "1094 + 100 + 100",
             "BibTex": "@incollection{Heinsohn2018,\n  doi = {10.1007/978-3-319-73915-1_4},\n  url = {https://doi.org/10.1007/978-3-319-73915-1_4},\n  year = {2018},\n  publisher = {Springer International Publishing},\n  pages = {38--51},\n  author = {Niklas Heinsohn and Michael Kaufmann},\n  title = {An Interactive Tool to Explore and Improve the Ply Number of Drawings},\n  booktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2769,7 +2769,7 @@
             "Authors": [
                 "Giacomo Ortali and Ioannis G. Tollis"
             ],
-            "year": "2018",
+            "Year": "2018",
             "Dataset Size": "1",
             "BibTex": "@incollection{Ortali2018,\ndoi = {10.1007/978-3-030-04414-5_41},\nurl = {https://doi.org/10.1007/978-3-030-04414-5_41},\nyear = {2018},\npublisher = {Springer International Publishing},\npages = {579--592},\nauthor = {Giacomo Ortali and Ioannis G. Tollis},\ntitle = {Algorithms and Bounds for Drawing Directed Graphs},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2806,7 +2806,7 @@
             "Authors": [
                 "Walter Didimo and Giuseppe Liotta and Maurizio Patrignani"
             ],
-            "year": "2018",
+            "Year": "2018",
             "Dataset Size": "0",
             "BibTex": "@incollection{Didimo2018,\ndoi = {10.1007/978-3-030-04414-5_34},\nurl = {https://doi.org/10.1007/978-3-030-04414-5_34},\nyear = {2018},\npublisher = {Springer International Publishing},\npages = {481--494},\nauthor = {Walter Didimo and Giuseppe Liotta and Maurizio Patrignani},\ntitle = {Bend-Minimum Orthogonal Drawings in Quadratic Time},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2844,7 +2844,7 @@
                 "Ross\nand Kobourov",
                 "Stephen"
             ],
-            "year": "2018",
+            "Year": "2018",
             "Dataset Size": "4950 + 274668 + 100000",
             "BibTex": "@InProceedings{chen2018,\nauthor=\"Chen, Hang\nand Soni, Utkarsh\nand Lu, Yafeng\nand Maciejewski, Ross\nand Kobourov, Stephen\",\neditor=\"Biedl, Therese\nand Kerren, Andreas\",\ntitle=\"Same Stats, Different Graphs\",\nbooktitle=\"Graph Drawing and Network Visualization\",\nyear=\"2018\",\npublisher=\"Springer International Publishing\",\naddress=\"Cham\",\npages=\"463--477\",\ndoi=\u201d10.1007/978-3-030-04414-5_33\u201d,\nabstract=\"Data analysts commonly utilize statistics to summarize large datasets. While it is often sufficient to explore only the summary statistics of a dataset (e.g., min/mean/max), Anscombe's Quartet demonstrates how such statistics can be misleading. We consider a similar problem in the context of graph mining. To study the relationships between different graph properties and statistics, we examine all low-order ({\\$}{\\$}{\\backslash}le {\\$}{\\$}10) non-isomorphic graphs and provide a simple visual analytics system to explore correlations across multiple graph properties. However, for graphs with more than ten nodes, generating the entire space of graphs becomes quickly intractable. We use different random graph generation methods to further look into the distribution of graph statistics for higher order graphs and investigate the impact of various sampling methodologies. We also describe a method for generating many graphs that are identical over a number of graph properties and statistics yet are clearly different and identifiably distinct.\",\nisbn=\"978-3-030-04414-5\"\n}",
             "Dataset Tag": [
@@ -2877,7 +2877,7 @@
             "Authors": [
                 "Chien-Chun Ni and Yu-Yao Lin and Jie Gao and Xianfeng Gu"
             ],
-            "year": "2018",
+            "Year": "2018",
             "Dataset Size": "11",
             "BibTex": "@incollection{Ni2018,\ndoi = {10.1007/978-3-030-04414-5_32},\nurl = {https://doi.org/10.1007/978-3-030-04414-5_32},\nyear = {2018},\npublisher = {Springer International Publishing},\npages = {447--462},\nauthor = {Chien-Chun Ni and Yu-Yao Lin and Jie Gao and Xianfeng Gu},\ntitle = {Network Alignment by Discrete Ollivier-Ricci Flow},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2913,7 +2913,7 @@
             "Authors": [
                 ""
             ],
-            "year": "2018",
+            "Year": "2018",
             "Dataset Size": "",
             "BibTex": "@InProceedings{deluca2018,\nauthor=\"De Luca, Felice\nand Kobourov, Stephen\nand Purchase, Helen\",\neditor=\"Biedl, Therese\nand Kerren, Andreas\",\ntitle=\"Perception of Symmetries in Drawings of Graphs\",\nbooktitle=\"Graph Drawing and Network Visualization\",\nyear=\"2018\",\npublisher=\"Springer International Publishing\",\naddress=\"Cham\",\npages=\"433--446\",\ndoi=\u201d10.1007/978-3-030-04414-5_31\u201d,\nabstract=\"Symmetry is an important factor in human perception in general, as well as in the visualization of graphs in particular. There are three main types of symmetry: reflective, translational, and rotational. We report the results of a human subjects experiment to determine what types of symmetries are more salient in drawings of graphs. We found statistically significant evidence that vertical reflective symmetry is the most dominant (when selecting among vertical reflective, horizontal reflective, and translational). We also found statistically significant evidence that rotational symmetry is affected by the number of radial axes (the more, the better), with a notable exception at four axes.\",\nisbn=\"978-3-030-04414-5\"\n}",
             "Dataset Tag": [
@@ -2946,7 +2946,7 @@
             "Authors": [
                 "Anargyros Oikonomou and Antonios Symvonis"
             ],
-            "year": "2018",
+            "Year": "2018",
             "Dataset Size": "0",
             "BibTex": "@incollection{Oikonomou2018,\ndoi = {10.1007/978-3-030-04414-5_24},\nurl = {https://doi.org/10.1007/978-3-030-04414-5_24},\nyear = {2018},\npublisher = {Springer International Publishing},\npages = {347--353},\nauthor = {Anargyros Oikonomou and Antonios Symvonis},\ntitle = {Monotone Drawings of k-Inner Planar Graphs},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -2979,7 +2979,7 @@
             "Authors": [
                 "Almut Demel and Dominik Durrschnabel and Tamara Mchedlidze and Marcel Radermacher and Lasse Wulf"
             ],
-            "year": "2018",
+            "Year": "2018",
             "Dataset Size": "600",
             "BibTex": "@incollection{Demel2018,\ndoi = {10.1007/978-3-030-04414-5_20},\nurl = {https://doi.org/10.1007/978-3-030-04414-5_20},\nyear = {2018},\npublisher = {Springer International Publishing},\npages = {286--299},\nauthor = {Almut Demel and Dominik D\\\"{u}rrschnabel and Tamara Mchedlidze and Marcel Radermacher and Lasse Wulf},\ntitle = {A Greedy Heuristic for Crossing-Angle Maximization},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3017,7 +3017,7 @@
             "Authors": [
                 "Michael A. Bekos and Henry Forster and Christian Geckeler and Lukas Hollander and Michael Kaufmann and Amadaus M. Spallek and Jan Splett"
             ],
-            "year": "2018",
+            "Year": "2018",
             "Dataset Size": "8100",
             "BibTex": "@incollection{Bekos2018,\ndoi = {10.1007/978-3-030-04414-5_19},\nurl = {https://doi.org/10.1007/978-3-030-04414-5_19},\nyear = {2018},\npublisher = {Springer International Publishing},\npages = {271--285},\nauthor = {Michael A. Bekos and Henry F\\\"{o}rster and Christian Geckeler and Lukas Holl\\\"{a}nder and Michael Kaufmann and Amad\\\"{a}us M. Spallek and Jan Splett},\ntitle = {A Heuristic Approach Towards Drawings of Graphs with High Crossing Resolution},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3053,7 +3053,7 @@
             "Authors": [
                 "Radoslav Fulek and Csaba D. Toth"
             ],
-            "year": "2018",
+            "Year": "2018",
             "Dataset Size": "0",
             "BibTex": "@incollection{Fulek2018,\ndoi = {10.1007/978-3-030-04414-5_16},\nurl = {https://doi.org/10.1007/978-3-030-04414-5_16},\nyear = {2018},\npublisher = {Springer International Publishing},\npages = {229--241},\nauthor = {Radoslav Fulek and Csaba D. T{\\'{o}}th},\ntitle = {Crossing Minimization in Perturbed Drawings},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3089,7 +3089,7 @@
             "Authors": [
                 "Michael Junger and Petra Mutzel and Christiane Spisla"
             ],
-            "year": "2018",
+            "Year": "2018",
             "Dataset Size": "1277",
             "BibTex": "@incollection{Jnger2018,\ndoi = {10.1007/978-3-030-04414-5_13},\nurl = {https://doi.org/10.1007/978-3-030-04414-5_13},\nyear = {2018},\npublisher = {Springer International Publishing},\npages = {187--199},\nauthor = {Michael J\\\"{u}nger and Petra Mutzel and Christiane Spisla},\ntitle = {A Flow Formulation for Horizontal Coordinate Assignment with Prescribed Width},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3124,7 +3124,7 @@
             "Authors": [
                 "Moritz Klammler and Tamara Mchedlidze and Alexey Pak"
             ],
-            "year": "2018",
+            "Year": "2018",
             "Dataset Size": "36000",
             "BibTex": "@InProceedings{klammler2018,\nauthor=\"Klammler, Moritz\nand Mchedlidze, Tamara\nand Pak, Alexey\",\neditor=\"Biedl, Therese\nand Kerren, Andreas\",\ntitle=\"Aesthetic Discrimination of Graph Layouts\",\nbooktitle=\"Graph Drawing and Network Visualization\",\nyear=\"2018\",\npublisher=\"Springer International Publishing\",\naddress=\"Cham\",\npages=\"169--184\",\ndoi=\u201d10.1007/978-3-030-04414-5_12\u201d,\nabstract=\"This paper addresses the following basic question: given two layouts of the same graph, which one is more aesthetically pleasing? We propose a neural network-based discriminator model trained on a labeled dataset that decides which of two layouts has a higher aesthetic quality. The feature vectors used as inputs to the model are based on known graph drawing quality metrics, classical statistics, information-theoretical quantities, and two-point statistics inspired by methods of condensed matter physics. The large corpus of layout pairs used for training and testing is constructed using force-directed drawing algorithms and the layouts that naturally stem from the process of graph generation. It is further extended using data augmentation techniques. Our model demonstrates a mean prediction accuracy of 96.48{\\%}, outperforming discriminators based on stress and on the linear combination of popular quality metrics by a small but statistically significant margin.\",\nisbn=\"978-3-030-04414-5\"\n}",
             "Dataset Tag": [
@@ -3165,7 +3165,7 @@
             "Authors": [
                 "Maya Olszewski and Jeff Meder and Emmanuel Kieffer and Rapha\u00ebl Bleuse and Martin Rosalie and Gr\u00e9goire Danoy and Pascal Bouvry"
             ],
-            "year": "2018",
+            "Year": "2018",
             "Dataset Size": "168",
             "BibTex": "@incollection{Olszewski2018,\ndoi = {10.1007/978-3-030-04414-5_8},\nurl = {https://doi.org/10.1007/978-3-030-04414-5_8},\nyear = {2018},\npublisher = {Springer International Publishing},\npages = {106--119},\nauthor = {Maya Olszewski and Jeff Meder and Emmanuel Kieffer and Rapha\u00ebl Bleuse and Martin Rosalie and Gr{\\'{e}}goire Danoy and Pascal Bouvry},\ntitle = {Visualizing the Template of a Chaotic Attractor},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3201,7 +3201,7 @@
             "Authors": [
                 "Thom Castermans and Mereke van Garderen and\u00a0Wouter Meulemans and\u00a0Martin N\u00f6llenburg\u00a0and\u00a0Xiaoru Yuan"
             ],
-            "year": "2018",
+            "Year": "2018",
             "Dataset Size": "1000 * 5 * 6 * 4",
             "BibTex": "@incollection{Castermans2018,\ndoi = {10.1007/978-3-030-04414-5_4},\nurl = {https://doi.org/10.1007/978-3-030-04414-5_4},\nyear = {2018},\npublisher = {Springer International Publishing},\npages = {53--66},\nauthor = {Thom Castermans and Mereke van Garderen and Wouter Meulemans and Martin N\\\"{o}llenburg and Xiaoru Yuan},\ntitle = {Short Plane Supports for Spatial Hypergraphs},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3235,7 +3235,7 @@
             "Authors": [
                 "Sven Mallach"
             ],
-            "year": "2019",
+            "Year": "2019",
             "Dataset Size": "180 + 127",
             "BibTex": "@incollection{Mallach2019,\ndoi = {10.1007/978-3-030-35802-0_40},\nurl = {https://doi.org/10.1007/978-3-030-35802-0_40},\nyear = {2019},\npublisher = {Springer International Publishing},\npages = {532--544},\nauthor = {Sven Mallach},\ntitle = {A Natural Quadratic Approach to the Generalized Graph Layering Problem},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3270,7 +3270,7 @@
             "Authors": [
                 "Felice De Luca and Md. Iqbal Hossain and Stephen Kobourov"
             ],
-            "year": "2019",
+            "Year": "2019",
             "Dataset Size": "64000",
             "BibTex": "@InProceedings{felice2019,\nauthor=\"De Luca, Felice\nand Hossain, Md. Iqbal\nand Kobourov, Stephen\",\neditor=\"Archambault, Daniel\nand T{\\'o}th, Csaba D.\",\ntitle=\"Symmetry Detection and Classification in Drawings of Graphs\",\nbooktitle=\"Graph Drawing and Network Visualization\",\nyear=\"2019\",\npublisher=\"Springer International Publishing\",\naddress=\"Cham\",\npages=\"499--513\",\ndoi=\u201d10.1007/978-3-030-35802-0_38\u201d,\nabstract=\"Symmetry is a key feature observed in nature (from flowers and leaves, to butterflies and birds) and in human-made objects (from paintings and sculptures, to manufactured objects and architectural design). Rotational, translational, and especially reflectional symmetries, are also important in drawings of graphs. Detecting and classifying symmetries can be very useful in algorithms that aim to create symmetric graph drawings and in this paper we present a machine learning approach for these tasks. Specifically, we show that deep neural networks can be used to detect reflectional symmetries with 92{\\%} accuracy. We also build a multi-class classifier to distinguish between reflectional horizontal, reflectional vertical, rotational, and translational symmetries. Finally, we make available a collection of images of graph drawings with specific symmetric features that can be used in machine learning systems for training, testing and validation purposes. Our datasets, best trained ML models, source code are available online.\",\nisbn=\"978-3-030-35802-0\"\n}",
             "Dataset Tag": [
@@ -3306,7 +3306,7 @@
             "Authors": [
                 "Philipp de Col and\u00a0Fabian Klute\u00a0and\u00a0Martin N\u00f6llenburg"
             ],
-            "year": "2019",
+            "Year": "2019",
             "Dataset Size": "500",
             "BibTex": "@incollection{deCol2019,\ndoi = {10.1007/978-3-030-35802-0_35},\nurl = {https://doi.org/10.1007/978-3-030-35802-0_35},\nyear = {2019},\npublisher = {Springer International Publishing},\npages = {460--467},\nauthor = {Philipp de Col and Fabian Klute and Martin N\\\"{o}llenburg},\ntitle = {Mixed Linear Layouts: Complexity, Heuristics, and Experiments},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3345,7 +3345,7 @@
             "Authors": [
                 "Kazuo Misue and Katsuya Akasaka"
             ],
-            "year": "2019",
+            "Year": "2019",
             "Dataset Size": "1",
             "BibTex": "@incollection{Misue2019,\ndoi = {10.1007/978-3-030-35802-0_26},\nurl = {https://doi.org/10.1007/978-3-030-35802-0_26},\nyear = {2019},\npublisher = {Springer International Publishing},\npages = {337--349},\nauthor = {Kazuo Misue and Katsuya Akasaka},\ntitle = {Graph Drawing with Morphing Partial Edges},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3379,7 +3379,7 @@
             "Authors": [
                 "Matthias Hummel and Fabian Klute and Soeren Nickel and Martin N\u00f6llenburg"
             ],
-            "year": "2019",
+            "Year": "2019",
             "Dataset Size": "800",
             "BibTex": "@incollection{Hummel2019,\ndoi = {10.1007/978-3-030-35802-0_25},\nurl = {https://doi.org/10.1007/978-3-030-35802-0_25},\nyear = {2019},\npublisher = {Springer International Publishing},\npages = {323--336},\nauthor = {Matthias Hummel and Fabian Klute and Soeren Nickel and Martin N\\\"{o}llenburg},\ntitle = {Maximizing Ink in Partial Edge Drawings of k-plane Graphs},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3414,7 +3414,7 @@
             "Authors": [
                 "Sabin Devkota and Reyan Ahmed and Felice De Luca and Katherine E. Isaacs and Stephen Kobourov"
             ],
-            "year": "2019",
+            "Year": "2019",
             "Dataset Size": "400 + 36 + 100",
             "BibTex": "@incollection{Devkota2019,\n  doi = {10.1007/978-3-030-35802-0_23},\n  url = {https://doi.org/10.1007/978-3-030-35802-0_23},\n  year = {2019},\n  publisher = {Springer International Publishing},\n  pages = {291--304},\n  author = {Sabin Devkota and Reyan Ahmed and Felice De Luca and Katherine E. Isaacs and Stephen Kobourov},\n  title = {Stress-Plus-X ({SPX}) Graph Layout},\n  booktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3452,7 +3452,7 @@
             "Authors": [
                 "Lorenzo Angori and Walter Didimo and Fabrizio Montecchiani and Daniele Pagliuca and Alessandra Tappini"
             ],
-            "year": "2019",
+            "Year": "2019",
             "Dataset Size": "2",
             "BibTex": "@incollection{Angori2019,\ndoi = {10.1007/978-3-030-35802-0_22},\nurl = {https://doi.org/10.1007/978-3-030-35802-0_22},\nyear = {2019},\npublisher = {Springer International Publishing},\npages = {276--290},\nauthor = {Lorenzo Angori and Walter Didimo and Fabrizio Montecchiani and Daniele Pagliuca and Alessandra Tappini},\ntitle = {{ChordLink}: A New Hybrid Visualization Model},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3486,7 +3486,7 @@
             "Authors": [
                 "Patrizio Angelini and Michael A. Bekos and Michael Kaufmann and Thomas Schneck"
             ],
-            "year": "2019",
+            "Year": "2019",
             "Dataset Size": "",
             "BibTex": "@incollection{Angelini2019,\ndoi = {10.1007/978-3-030-35802-0_20},\nurl = {https://doi.org/10.1007/978-3-030-35802-0_20},\nyear = {2019},\npublisher = {Springer International Publishing},\npages = {253--267},\nauthor = {Patrizio Angelini and Michael A. Bekos and Michael Kaufmann and Thomas Schneck},\ntitle = {Efficient Generation of Different Topological Representations of Graphs Beyond-Planarity},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3519,7 +3519,7 @@
             "Authors": [
                 "Oksana Firman and Philipp Kindermann and Alexander Ravsky and Alexander Wolff and Johannes Zink"
             ],
-            "year": "2019",
+            "Year": "2019",
             "Dataset Size": "1151",
             "BibTex": "@incollection{Firman2019,\ndoi = {10.1007/978-3-030-35802-0_16},\nurl = {https://doi.org/10.1007/978-3-030-35802-0_16},\nyear = {2019},\npublisher = {Springer International Publishing},\npages = {203--215},\nauthor = {Oksana Firman and Philipp Kindermann and Alexander Ravsky and Alexander Wolff and Johannes Zink},\ntitle = {Computing Height-Optimal Tangles~Faster},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3556,7 +3556,7 @@
             "Authors": [
                 "Fati Chen and Laurent Piccinini and Pascal Poncelet and Arnaud Sallaberry"
             ],
-            "year": "2019",
+            "Year": "2019",
             "Dataset Size": "854",
             "BibTex": "@incollection{Chen2019,\ndoi = {10.1007/978-3-030-35802-0_14},\nurl = {https://doi.org/10.1007/978-3-030-35802-0_14},\nyear = {2019},\npublisher = {Springer International Publishing},\npages = {179--192},\nauthor = {Fati Chen and Laurent Piccinini and Pascal Poncelet and Arnaud Sallaberry},\ntitle = {Node Overlap Removal Algorithms: A Comparative Study},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3592,7 +3592,7 @@
             "Authors": [
                 "Seok-Hee Hong and Peter Eades and Marnijati Torkel and Ziyang Wang and David Chae and Sungpack Hong and Daniel Langerenken and Hassan Chafi"
             ],
-            "year": "2019",
+            "Year": "2019",
             "Dataset Size": "19",
             "BibTex": "@incollection{Hong2019,\ndoi = {10.1007/978-3-030-35802-0_11},\nurl = {https://doi.org/10.1007/978-3-030-35802-0_11},\nyear = {2019},\npublisher = {Springer International Publishing},\npages = {139--146},\nauthor = {Seok-Hee Hong and Peter Eades and Marnijati Torkel and Ziyang Wang and David Chae and Sungpack Hong and Daniel Langerenken and Hassan Chafi},\ntitle = {Multi-level Graph Drawing Using Infomap Clustering},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3627,7 +3627,7 @@
             "Authors": [
                 "Amyra Meidiana and Seok-Hee Hong and Peter Eades and Daniel Keim"
             ],
-            "year": "2019",
+            "Year": "2019",
             "Dataset Size": "18",
             "BibTex": "@incollection{Meidiana2019,\ndoi = {10.1007/978-3-030-35802-0_10},\nurl = {https://doi.org/10.1007/978-3-030-35802-0_10},\nyear = {2019},\npublisher = {Springer International Publishing},\npages = {125--138},\nauthor = {Amyra Meidiana and Seok-Hee Hong and Peter Eades and Daniel Keim},\ntitle = {A Quality Metric for Visualization of Clusters in Graphs},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3664,7 +3664,7 @@
             "Authors": [
                 "Soeren Nickel and Max Sondag and Wouter Meulemans and Markus Chimani and Stephen Kobourov and Jaakko Peltonen and Martin N\\\"{o}llenburg"
             ],
-            "year": "2019",
+            "Year": "2019",
             "Dataset Size": "9",
             "BibTex": "@incollection{Nickel2019,\ndoi = {10.1007/978-3-030-35802-0_4},\nurl = {https://doi.org/10.1007/978-3-030-35802-0_4},\nyear = {2019},\npublisher = {Springer International Publishing},\npages = {46--60},\nauthor = {Soeren Nickel and Max Sondag and Wouter Meulemans and Markus Chimani and Stephen Kobourov and Jaakko Peltonen and Martin N\\\"{o}llenburg},\ntitle = {Computing Stable Demers Cartograms},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3698,7 +3698,7 @@
             "Authors": [
                 "Helen C. Purchase and Daniel Archambault and Stephen Kobourov and Martin N\u00f6llenburg and Sergey Pupyrev and Hsiang-Yun Wu"
             ],
-            "year": "2020",
+            "Year": "2020",
             "Dataset Size": "9",
             "BibTex": "@incollection{Purchase2020,\ndoi = {10.1007/978-3-030-68766-3_36},\nurl = {https://doi.org/10.1007/978-3-030-68766-3_36},\nyear = {2020},\npublisher = {Springer International Publishing},\npages = {466--481},\nauthor = {Helen C. Purchase and Daniel Archambault and Stephen Kobourov and Martin N\\\"{o}llenburg and Sergey Pupyrev and Hsiang-Yun Wu},\ntitle = {The Turing Test for Graph Drawing Algorithms},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3735,7 +3735,7 @@
             "Authors": [
                 "Amyra Meidiana and Seok-Hee Hong and Peter Eades"
             ],
-            "year": "2020",
+            "Year": "2020",
             "Dataset Size": "23",
             "BibTex": "@InProceedings{meidiana2022,\nauthor=\"Meidiana, Amyra\nand Hong, Seok-Hee\nand Eades, Peter\",\neditor=\"Auber, David\nand Valtr, Pavel\",\ntitle=\"New Quality Metrics for Dynamic Graph Drawing\",\nbooktitle=\"Graph Drawing and Network Visualization\",\nyear=\"2020\",\npublisher=\"Springer International Publishing\",\naddress=\"Cham\",\ndoi=\u201d10.1007/978-3-030-68766-3_35\u201d,\npages=\"450--465\",\nabstract=\"In this paper, we present new quality metrics for dynamic graph drawings. Namely, we present a new framework for change faithfulness metrics for dynamic graph drawings, which compare the ground truth change in dynamic graphs and the geometric change in drawings.\",\nisbn=\"978-3-030-68766-3\"\n}",
             "Dataset Tag": [
@@ -3771,7 +3771,7 @@
             "Authors": [
                 "Emilio Di Giacomo and Walter Didimo and Giuseppe Liotta and Fabrizio Montecchiani and Alessandra Tappini"
             ],
-            "year": "2020",
+            "Year": "2020",
             "Dataset Size": "2",
             "BibTex": "@incollection{DiGiacomo2020,\ndoi = {10.1007/978-3-030-68766-3_25},\nurl = {https://doi.org/10.1007/978-3-030-68766-3_25},\nyear = {2020},\npublisher = {Springer International Publishing},\npages = {324--332},\nauthor = {Emilio Di Giacomo and Walter Didimo and Giuseppe Liotta and Fabrizio Montecchiani and Alessandra Tappini},\ntitle = {Storyline Visualizations with Ubiquitous Actors},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3806,7 +3806,7 @@
             "Authors": [
                 "Benjamin Niedermann and Ignaz Rutter"
             ],
-            "year": "2020",
+            "Year": "2020",
             "Dataset Size": "4048 ",
             "BibTex": "@incollection{Niedermann2020,\ndoi = {10.1007/978-3-030-68766-3_19},\nurl = {https://doi.org/10.1007/978-3-030-68766-3_19},\nyear = {2020},\npublisher = {Springer International Publishing},\npages = {235--249},\nauthor = {Benjamin Niedermann and Ignaz Rutter},\ntitle = {An Integer-Linear Program for Bend-Minimization in Ortho-Radial Drawings},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3845,7 +3845,7 @@
             "Authors": [
                 "Julian Walter and Johannes Zink and Joachim Baumeister and Alexander Wolff"
             ],
-            "year": "2020",
+            "Year": "2020",
             "Dataset Size": "380 + 1140",
             "BibTex": "@incollection{Walter2020,\ndoi = {10.1007/978-3-030-68766-3_18},\nurl = {https://doi.org/10.1007/978-3-030-68766-3_18},\nyear = {2020},\npublisher = {Springer International Publishing},\npages = {220--234},\nauthor = {Julian Walter and Johannes Zink and Joachim Baumeister and Alexander Wolff},\ntitle = {Layered Drawing of Undirected Graphs with Generalized Port Constraints},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3882,7 +3882,7 @@
             "Authors": [
                 "Vincenzo Perri and Ingo Scholtes"
             ],
-            "year": "2020",
+            "Year": "2020",
             "Dataset Size": "6",
             "BibTex": "@incollection{Perri2020,\ndoi = {10.1007/978-3-030-68766-3_8},\nurl = {https://doi.org/10.1007/978-3-030-68766-3_8},\nyear = {2020},\npublisher = {Springer International Publishing},\npages = {99--114},\nauthor = {Vincenzo Perri and Ingo Scholtes},\ntitle = {{HOTVis}: Higher-Order Time-Aware Visualisation of Dynamic Graphs},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3922,7 +3922,7 @@
             "Authors": [
                 "Katharina B\u00f6rsig and\u00a0Ulrik Brandes and\u00a0Barna Pasztor"
             ],
-            "year": "2020",
+            "Year": "2020",
             "Dataset Size": "6",
             "BibTex": "@incollection{Brsig2020,\ndoi = {10.1007/978-3-030-68766-3_2},\nurl = {https://doi.org/10.1007/978-3-030-68766-3_2},\nyear = {2020},\npublisher = {Springer International Publishing},\npages = {18--25},\nauthor = {Katharina B\\\"{o}rsig and Ulrik Brandes and Barna Pasztor},\ntitle = {Stochastic Gradient Descent Works Really Well for Stress Minimization},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3956,7 +3956,7 @@
             "Authors": [
                 "Reyan Ahmed and Felice De Luca and Sabin Devkota and Stephen Kobourov and Mingwei Li"
             ],
-            "year": "2020",
+            "Year": "2020",
             "Dataset Size": "10",
             "BibTex": "@incollection{Ahmed2020,\ndoi = {10.1007/978-3-030-68766-3_1},\nurl = {https://doi.org/10.1007/978-3-030-68766-3_1},\nyear = {2020},\npublisher = {Springer International Publishing},\npages = {3--17},\nauthor = {Reyan Ahmed and Felice De Luca and Sabin Devkota and Stephen Kobourov and Mingwei Li},\ntitle = {Graph Drawing via Gradient Descent, $({GD}){\\^{}}2$,\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -3991,7 +3991,7 @@
             "Authors": [
                 "Stefan Hachul and Michael J \u0308unger"
             ],
-            "year": "2005",
+            "Year": "2005",
             "Dataset Size": "29",
             "BibTex": "@incollection{Hachul2006,\ndoi = {10.1007/11618058_22},\nurl = {https://doi.org/10.1007/11618058_22},\nyear = {2006},\npublisher = {Springer Berlin Heidelberg},\npages = {235--250},\nauthor = {Stefan Hachul and Michael J\\\"{u}nger},\ntitle = {An Experimental Comparison of Fast Algorithms for Drawing General Large Graphs},\nbooktitle = {Graph Drawing}\n}",
             "Dataset Tag": [
@@ -4027,7 +4027,7 @@
             "Authors": [
                 "Loann Giovannangeli and Frederic Lalanne and David Auber and Romain Giot and Romain Bourqui"
             ],
-            "year": "2021",
+            "Year": "2021",
             "Dataset Size": "163931",
             "BibTex": "@incollection{Giovannangeli2021,\ndoi = {10.1007/978-3-030-92931-2_27},\nurl = {https://doi.org/10.1007/978-3-030-92931-2_27},\nyear = {2021},\npublisher = {Springer International Publishing},\npages = {375--390},\nauthor = {Loann Giovannangeli and Frederic Lalanne and David Auber and Romain Giot and Romain Bourqui},\ntitle = {Deep Neural Network for {DrawiNg} Networks},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -4063,7 +4063,7 @@
             "Authors": [
                 "Martin Nollenburg and Ana\u0131s Villedieu and Jules Wulms"
             ],
-            "year": "2021",
+            "Year": "2021",
             "Dataset Size": "0",
             "BibTex": "@incollection{Nllenburg2021,\ndoi = {10.1007/978-3-030-92931-2_23},\nurl = {https://doi.org/10.1007/978-3-030-92931-2_23},\nyear = {2021},\npublisher = {Springer International Publishing},\npages = {318--326},\nauthor = {Martin N\\\"{o}llenburg and Ana\u00efs Villedieu and Jules Wulms},\ntitle = {Layered Area-Proportional Rectangle Contact Representations},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -4097,7 +4097,7 @@
             "Authors": [
                 "Sujoy Bhore and Maarten L\u00f6ffler and Soeren Nickel and Martin N\u00f6llenburg"
             ],
-            "year": "2021",
+            "Year": "2021",
             "Dataset Size": "0",
             "BibTex": "@incollection{Bhore2021,\ndoi = {10.1007/978-3-030-92931-2_22},\nurl = {https://doi.org/10.1007/978-3-030-92931-2_22},\nyear = {2021},\npublisher = {Springer International Publishing},\npages = {304--317},\nauthor = {Sujoy Bhore and Maarten L\\\"{o}ffler and Soeren Nickel and Martin N\\\"{o}llenburg},\ntitle = {Unit Disk Representations of~Embedded Trees, Outerplanar and~Multi-legged Graphs},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -4131,7 +4131,7 @@
             "Authors": [
                 "Carla Binucci and Emilio Di Giacomo and Giuseppe Liotta and Alessandra Tappini"
             ],
-            "year": "2021",
+            "Year": "2021",
             "Dataset Size": "0",
             "BibTex": "@incollection{Binucci2021,\ndoi = {10.1007/978-3-030-92931-2_14},\nurl = {https://doi.org/10.1007/978-3-030-92931-2_14},\nyear = {2021},\npublisher = {Springer International Publishing},\npages = {195--209},\nauthor = {Carla Binucci and Emilio Di Giacomo and Giuseppe Liotta and Alessandra Tappini},\ntitle = {Quasi-upward Planar Drawings with~Minimum Curve Complexity},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -4165,7 +4165,7 @@
             "Authors": [
                 "Carlos Alegr\u00eda and\u00a0Manuel Borrazzo and\u00a0Giordano Da Lozzo and\u00a0Giuseppe Di Battista and\u00a0Fabrizio Frati and\u00a0Maurizio Patrignani"
             ],
-            "year": "2021",
+            "Year": "2021",
             "Dataset Size": "0",
             "BibTex": "@incollection{Alegra2021,\ndoi = {10.1007/978-3-030-92931-2_12},\nurl = {https://doi.org/10.1007/978-3-030-92931-2_12},\nyear = {2021},\npublisher = {Springer International Publishing},\npages = {166--183},\nauthor = {Carlos Alegr{\\'{\\i}}a and Manuel Borrazzo and Giordano Da Lozzo and Giuseppe Di Battista and Fabrizio Frati and Maurizio Patrignani},\ntitle = {Planar Straight-Line Realizations of~2-Trees with~Prescribed Edge Lengths},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -4198,7 +4198,7 @@
             "Authors": [
                 "Jonathan Klawitter and Johannes Zink"
             ],
-            "year": "2021",
+            "Year": "2021",
             "Dataset Size": "0",
             "BibTex": "@incollection{Klawitter2021,\ndoi = {10.1007/978-3-030-92931-2_11},\nurl = {https://doi.org/10.1007/978-3-030-92931-2_11},\nyear = {2021},\npublisher = {Springer International Publishing},\npages = {149--165},\nauthor = {Jonathan Klawitter and Johannes Zink},\ntitle = {Upward Planar Drawings with~Three and~More Slopes},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -4231,7 +4231,7 @@
             "Authors": [
                 "HeuiChan Lim and Stephen Kobourov"
             ],
-            "year": "2021",
+            "Year": "2021",
             "Dataset Size": "6",
             "BibTex": "@incollection{Lim2021,\ndoi = {10.1007/978-3-030-92931-2_10},\nurl = {https://doi.org/10.1007/978-3-030-92931-2_10},\nyear = {2021},\npublisher = {Springer International Publishing},\npages = {138--146},\nauthor = {HeuiChan Lim and Stephen Kobourov},\ntitle = {Visualizing {JIT} Compiler Graphs},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -4267,7 +4267,7 @@
             "Authors": [
                 "Henry F\u00f6rster and\u00a0Michael Kaufmann and\u00a0Chrysanthi N. Raftopoulou"
             ],
-            "year": "2021",
+            "Year": "2021",
             "Dataset Size": "0",
             "BibTex": "@incollection{Frster2021,\ndoi = {10.1007/978-3-030-92931-2_6},\nurl = {https://doi.org/10.1007/978-3-030-92931-2_6},\nyear = {2021},\npublisher = {Springer International Publishing},\npages = {87--100},\nauthor = {Henry F\\\"{o}rster and Michael Kaufmann and Chrysanthi N. Raftopoulou},\ntitle = {Recognizing and Embedding Simple Optimal 2-Planar Graphs},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -4301,7 +4301,7 @@
             "Authors": [
                 "Boris Klemz and\u00a0Kristin Knorr and\u00a0Meghana M. Reddy and\u00a0Felix Schr\u00f6der"
             ],
-            "year": "2021",
+            "Year": "2021",
             "Dataset Size": "0",
             "BibTex": "@incollection{Klemz2021,\ndoi = {10.1007/978-3-030-92931-2_4},\nurl = {https://doi.org/10.1007/978-3-030-92931-2_4},\nyear = {2021},\npublisher = {Springer International Publishing},\npages = {57--71},\nauthor = {Boris Klemz and Kristin Knorr and Meghana M. Reddy and Felix Schr\\\"{o}der},\ntitle = {Simplifying Non-simple Fan-Planar Drawings},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -4334,7 +4334,7 @@
             "Authors": [
                 "Markus Chimani and Max Ilsen and Tilo Wiedera"
             ],
-            "year": "2021",
+            "Year": "2021",
             "Dataset Size": "6192",
             "BibTex": "@incollection{Chimani2021,\ndoi = {10.1007/978-3-030-92931-2_3},\nurl = {https://doi.org/10.1007/978-3-030-92931-2_3},\nyear = {2021},\npublisher = {Springer International Publishing},\npages = {41--56},\nauthor = {Markus Chimani and Max Ilsen and Tilo Wiedera},\ntitle = {Star-Struck by Fixed Embeddings: Modern Crossing Number Heuristics},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -4375,7 +4375,7 @@
             "Authors": [
                 "Markus Chimani and Carsten Gutwenger"
             ],
-            "year": "2011",
+            "Year": "2011",
             "Dataset Size": "1843 + 311",
             "BibTex": "@incollection{Chimani2012,\ndoi = {10.1007/978-3-642-25878-7_10},\nurl = {https://doi.org/10.1007/978-3-642-25878-7_10},\nyear = {2012},\npublisher = {Springer Berlin Heidelberg},\npages = {87--98},\nauthor = {Markus Chimani and Carsten Gutwenger},\ntitle = {Advances in the Planarization Method: Effective Multiple Edge Insertions},\nbooktitle = {Graph Drawing}\n}",
             "Dataset Tag": [
@@ -4413,7 +4413,7 @@
             "Authors": [
                 "Carsten Gutwenger and Petra Mutzel"
             ],
-            "year": "2003",
+            "Year": "2003",
             "Dataset Size": "11389",
             "BibTex": "@incollection{Gutwenger2004,\ndoi = {10.1007/978-3-540-24595-7_2},\nurl = {https://doi.org/10.1007/978-3-540-24595-7_2},\nyear = {2004},\npublisher = {Springer Berlin Heidelberg},\npages = {13--24},\nauthor = {Carsten Gutwenger and Petra Mutzel},\ntitle = {An Experimental Study of Crossing Minimization Heuristics},\nbooktitle = {Graph Drawing}\n}",
             "Dataset Tag": [
@@ -4449,7 +4449,7 @@
             "Authors": [
                 "Martin Gronemann and Michael J\u00fcnger and Frauke Liers and Francesco Mambelli"
             ],
-            "year": "2016",
+            "Year": "2016",
             "Dataset Size": "42",
             "BibTex": "@incollection{Gronemann2016b,\ndoi = {10.1007/978-3-319-50106-2_29},\nurl = {https://doi.org/10.1007/978-3-319-50106-2_29},\nyear = {2016},\npublisher = {Springer International Publishing},\npages = {367--381},\nauthor = {Martin Gronemann and Michael J\\\"{u}nger and Frauke Liers and Francesco Mambelli},\ntitle = {Crossing Minimization in Storyline Visualization},\nbooktitle = {Lecture Notes in Computer Science}\n}",
             "Dataset Tag": [
@@ -4484,7 +4484,7 @@
             "Authors": [
                 "Martin N\u00f6llenburg"
             ],
-            "year": "2009",
+            "Year": "2009",
             "Dataset Size": "0",
             "BibTex": "@incollection{Nllenburg2010,\ndoi = {10.1007/978-3-642-11805-0_36},\nurl = {https://doi.org/10.1007/978-3-642-11805-0_36},\nyear = {2010},\npublisher = {Springer Berlin Heidelberg},\npages = {381--392},\nauthor = {Martin N\\\"{o}llenburg},\ntitle = {An Improved Algorithm for the Metro-line Crossing Minimization Problem},\nbooktitle = {Graph Drawing}\n}",
             "Dataset Tag": [
@@ -4517,7 +4517,7 @@
             "Authors": [
                 "Michael A. Bekos and Michael Kaufmann and Katerina Potika and Antonios Symvonis"
             ],
-            "year": "2007",
+            "Year": "2007",
             "Dataset Size": "NA",
             "BibTex": "@incollection{Bekos2007,\ndoi = {10.1007/978-3-540-77537-9_24},\nurl = {https://doi.org/10.1007/978-3-540-77537-9_24},\npublisher = {Springer Berlin Heidelberg},\npages = {231--242},\nyear = {2007},\nauthor = {Michael A. Bekos and Michael Kaufmann and Katerina Potika and Antonios Symvonis},\ntitle = {Line Crossing Minimization on Metro Maps},\nbooktitle = {Graph Drawing}\n}",
             "Dataset Tag": [
@@ -4551,7 +4551,7 @@
             "Authors": [
                 "Graeme Gange and Peter J. Stuckey and Kim Marriott"
             ],
-            "year": "2010",
+            "Year": "2010",
             "Dataset Size": "23 + 9",
             "BibTex": "@incollection{Gange2011,\ndoi = {10.1007/978-3-642-18469-7_22},\nurl = {https://doi.org/10.1007/978-3-642-18469-7_22},\nyear = {2011},\npublisher = {Springer Berlin Heidelberg},\npages = {238--249},\nauthor = {Graeme Gange and Peter J. Stuckey and Kim Marriott},\ntitle = {Optimal k-Level Planarization and Crossing Minimization},\nbooktitle = {Graph Drawing}\n}",
             "Dataset Tag": [
@@ -4586,7 +4586,7 @@
             "Authors": [
                 "Ulrik Brandes and Dorothea Wagner"
             ],
-            "year": "1998",
+            "Year": "1998",
             "Dataset Size": "5",
             "BibTex": "@InProceedings{brandes1998,\nauthor=\"Brandes, Ulrik\nand Wagner, Dorothea\",\neditor=\"Whitesides, Sue H.\",\ntitle=\"Using Graph Layout to Visualize Train Interconnection Data\",\nbooktitle=\"Graph Drawing\",\nyear=\"1998\",\npublisher=\"Springer Berlin Heidelberg\",\naddress=\"Berlin, Heidelberg\",\npages=\"44--56\",\ndoi=\u201d10.1007/3-540-37623-2_4\u201d,\nabstract=\"We are concerned with the problem of visualizing interconnections in railroad systems. The real-world systems we have to deal with contain connections of thousands of trains. To visualize such a system from a given set of time tables a so-called train graph is used. It contains a vertex for each station met by any train, and one edge between every pair of vertices connected by some train running from one station to the other without halting in between.\",\nisbn=\"978-3-540-37623-1\"\n}",
             "Dataset Tag": [
@@ -4620,7 +4620,7 @@
             "Authors": [
                 "Fran\u00e7ois Bertault"
             ],
-            "year": "1999",
+            "Year": "1999",
             "Dataset Size": "NA",
             "BibTex": "@article{Bertault2000,\ndoi = {10.1016/s0020-0190(00)00042-9},\nurl = {https://doi.org/10.1016/s0020-0190(00)00042-9},\nyear = {2000},\nmonth = apr,\npublisher = {Elsevier {BV}},\nvolume = {74},\nnumber = {1-2},\npages = {7--13},\nauthor = {Fran{\\c{c}}ois Bertault},\ntitle = {A force-directed algorithm that preserves edge-crossing properties},\njournal = {Information Processing Letters}\n}",
             "Dataset Tag": [
@@ -4655,7 +4655,7 @@
             "Authors": [
                 "Ulrik Brandes and Boris Kopf"
             ],
-            "year": "2002",
+            "Year": "2002",
             "Dataset Size": "1",
             "BibTex": "@InProceedings{brandes2002,\nauthor=\"Brandes, Ulrik\nand K{\\\"o}pf, Boris\",\neditor=\"Mutzel, Petra\nand J{\\\"u}nger, Michael\nand Leipert, Sebastian\",\ntitle=\"Fast and Simple Horizontal Coordinate Assignment\",\nbooktitle=\"Graph Drawing\",\nyear=\"2002\",\npublisher=\"Springer Berlin Heidelberg\",\naddress=\"Berlin, Heidelberg\",\npages=\"31--44\",\nabstract=\"We present a simple, linear-time algorithm to determine horizontal coordinates in layered layouts subject to a given ordering within each layer. The algorithm is easy to implement and compares well with existing approaches in terms of assignment quality.\",\nisbn=\"978-3-540-45848-7\"\n}",
             "Dataset Tag": [
@@ -4690,7 +4690,7 @@
             "Authors": [
                 "Michael Forster"
             ],
-            "year": "2004",
+            "Year": "2004",
             "Dataset Size": "37500",
             "BibTex": "@incollection{Forster2005,\ndoi = {10.1007/978-3-540-31843-9_22},\nurl = {https://doi.org/10.1007/978-3-540-31843-9_22},\nyear = {2005},\npublisher = {Springer Berlin Heidelberg},\npages = {206--216},\nauthor = {Michael Forster},\ntitle = {A Fast and Simple Heuristic for Constrained Two-Level Crossing Reduction},\nbooktitle = {Graph Drawing}\n}",
             "Dataset Tag": [
@@ -4725,7 +4725,7 @@
             "Authors": [
                 "Michael Forster"
             ],
-            "year": "2002",
+            "Year": "2002",
             "Dataset Size": "NA",
             "BibTex": "@InProceedings{Forster2002,\nauthor=\"Forster, Michael\",\neditor=\"Goodrich, Michael T.\nand Kobourov, Stephen G.\",\ntitle=\"Applying Crossing Reduction Strategies to Layered Compound Graphs\",\nbooktitle=\"Graph Drawing\",\nyear=\"2002\",\ndoi=\u201d10.1007/3-540-36151-0_26\u201d,\npublisher=\"Springer Berlin Heidelberg\",\naddress=\"Berlin, Heidelberg\",\npages=\"276--284\",\nabstract=\"We present a new method for the application of 2-layer crossing reduction algorithms to layered compound http://graphs.it/ is based on an algorithm by Sander [9], [7], [8] and improves it with fewer crossings.Our method is optimal in the sense that it does not introduce unnecessary crossings by itself.If used with an optimal 2-layer crossing reduction algorithm, the crossing reduction for 2-layer compound graphs is optimal, too.\",\nisbn=\"978-3-540-36151-0\"\n}",
             "Dataset Tag": [
@@ -4758,7 +4758,7 @@
             "Authors": [
                 "Christoph Buchheim and Dietmar Ebner and Michael J\u00fcnger and Gunnar W. Klau and Petra Mutzel and Ren\u00e9 Weiskircher"
             ],
-            "year": "2005",
+            "Year": "2005",
             "Dataset Size": "11389",
             "BibTex": "@InProceedings{Buchheim2006,\nauthor=\"Buchheim, Christoph\nand Ebner, Dietmar\nand J{\\\"u}nger, Michael\nand Klau, Gunnar W.\nand Mutzel, Petra\nand Weiskircher, Ren{\\'e}\",\neditor=\"Healy, Patrick\nand Nikolov, Nikola S.\",\ntitle=\"Exact Crossing Minimization\",\nbooktitle=\"Graph Drawing\",\nyear=\"2006\",\npublisher=\"Springer Berlin Heidelberg\",\naddress=\"Berlin, Heidelberg\",\npages=\"37--48\",\ndoi=\u201d10.1007/11618058_4\u201d,\nabstract=\"The crossing number of a graph is the minimum number of edge crossings in any drawing of the graph into the plane. This very basic property has been studied extensively in the literature from a theoretic point of view and many bounds exist for a variety of graph classes. In this paper, we present the first algorithm able to compute the crossing number of general sparse graphs of moderate size and present computational results on a popular benchmark set of graphs. The approach uses a new integer linear programming formulation of the problem combined with strong heuristics and problem reduction techniques. This enables us to compute the crossing number for 91 percent of all graphs on up to 40 nodes in the benchmark set within a time limit of five minutes per graph.\",\nisbn=\"978-3-540-31667-1\"\n}",
             "Dataset Tag": [
@@ -4792,7 +4792,7 @@
             "Authors": [
                 "Yaniv Frishman and Ayellet Tal"
             ],
-            "year": "2007",
+            "Year": "2007",
             "Dataset Size": "12",
             "BibTex": "@ARTICLE{frishman2007, author={Frishman, Yaniv and Tal, Ayellet}, journal={IEEE Transactions on Visualization and Computer Graphics}, title={Multi-Level Graph Layout on the GPU}, year={2007}, volume={13}, number={6}, pages={1310-1319}, doi={10.1109/TVCG.2007.70580}}",
             "Dataset Tag": [
@@ -4828,7 +4828,7 @@
             "Authors": [
                 "Yehuda Koren and Liran Carmel and David Harel"
             ],
-            "year": "2002",
+            "Year": "2002",
             "Dataset Size": "12",
             "BibTex": "@INPROCEEDINGS{koren2002, author={Yehuda Koren and Carmel, L. and Harel, D.}, booktitle={IEEE Symposium on Information Visualization, 2002. INFOVIS 2002.}, title={ACE: a fast multiscale eigenvectors computation for drawing huge graphs}, year={2002}, volume={}, number={}, pages={137-144}, doi={10.1109/INFVIS.2002.1173159}}",
             "Dataset Tag": [
@@ -4865,7 +4865,7 @@
             "Authors": [
                 "Chris Muelder and Kwan-Liu Ma"
             ],
-            "year": "2008",
+            "Year": "2008",
             "Dataset Size": "4",
             "BibTex": "@ARTICLE{muelder2008, author={Muelder, Chris and Ma, Kwan-Liu}, journal={IEEE Transactions on Visualization and Computer Graphics}, title={Rapid Graph Layout Using Space Filling Curves}, year={2008}, volume={14}, number={6}, pages={1301-1308}, doi={10.1109/TVCG.2008.158}}",
             "Dataset Tag": [
@@ -4900,7 +4900,7 @@
             "Authors": [
                 "E. R. Gansner and Yifan Hu and S. North"
             ],
-            "year": "2013",
+            "Year": "2013",
             "Dataset Size": "9",
             "BibTex": "@article{Gansner2013,\ndoi = {10.1109/tvcg.2012.299},\nurl = {https://doi.org/10.1109/tvcg.2012.299},\nyear = {2013},\nmonth = jun,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {19},\nnumber = {6},\npages = {927--940},\nauthor = {E. R. Gansner and Yifan Hu and S. North},\ntitle = {A Maxent-Stress Model for Graph Layout},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -4935,7 +4935,7 @@
             "Authors": [
                 "Ying Zhao and Haojin Jiang and Qi'an Chen and Yaqi Qin and Huixuan Xie and Yitao Wu and Shixia Liu and Zhiguang Zhou and Jiazhi Xia and Fangfang Zhou"
             ],
-            "year": "2021",
+            "Year": "2021",
             "Dataset Size": "34 + 3",
             "BibTex": "@article{Zhao2021,\ndoi = {10.1109/tvcg.2020.3030428},\nurl = {https://doi.org/10.1109/tvcg.2020.3030428},\nyear = {2021},\nmonth = feb,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {27},\nnumber = {2},\npages = {1698--1708},\nauthor = {Ying Zhao and Haojin Jiang and Qi{\\textquotesingle}an Chen and Yaqi Qin and Huixuan Xie and Yitao Wu and Shixia Liu and Zhiguang Zhou and Jiazhi Xia and Fangfang Zhou},\ntitle = {Preserving Minority Structures in Graph Sampling},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -4974,7 +4974,7 @@
             "Authors": [
                 "Wouter Meulemans and Nathalie Henry Riche and Bettina Speckmann and Basak Alper and Tim Dwyer"
             ],
-            "year": "2013",
+            "Year": "2013",
             "Dataset Size": "4",
             "BibTex": "@article{Meulemans2013,\ndoi = {10.1109/tvcg.2013.76},\nurl = {https://doi.org/10.1109/tvcg.2013.76},\nyear = {2013},\nmonth = nov,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {19},\nnumber = {11},\npages = {1846--1858},\nauthor = {Wouter Meulemans and Nathalie Henry Riche and Bettina Speckmann and Basak Alper and Tim Dwyer},\ntitle = {{KelpFusion}: A Hybrid Set Visualization Technique},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5011,7 +5011,7 @@
             "Authors": [
                 "Nan Cao and David Gotz and Jimeng Sun and Huamin Qu"
             ],
-            "year": "2011",
+            "Year": "2011",
             "Dataset Size": "3",
             "BibTex": "@article{NanCao2011,\ndoi = {10.1109/tvcg.2011.188},\nurl = {https://doi.org/10.1109/tvcg.2011.188},\nyear = {2011},\nmonth = dec,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {17},\nnumber = {12},\npages = {2581--2590},\nauthor = {Nan Cao and D. Gotz and J. Sun and Huamin Qu},\ntitle = {{DICON}: Interactive Visual Analysis of Multidimensional Clusters},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5049,7 +5049,7 @@
             "Authors": [
                 "E.R. Gansner and Y. Koren and S.C. North"
             ],
-            "year": "2005",
+            "Year": "2005",
             "Dataset Size": "6 + 1",
             "BibTex": "@article{Gansner2005b,\ndoi = {10.1109/tvcg.2005.66},\nurl = {https://doi.org/10.1109/tvcg.2005.66},\nyear = {2005},\nmonth = jul,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {11},\nnumber = {4},\npages = {457--468},\nauthor = {E.R. Gansner and Y. Koren and S.C. North},\ntitle = {Topological Fisheye Views for Visualizing Large Graphs},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5084,7 +5084,7 @@
             "Authors": [
                 "Kevin Buchin and Bettina Speckmann and Kevin Verbeek"
             ],
-            "year": "2011",
+            "Year": "2011",
             "Dataset Size": "7",
             "BibTex": "@article{Buchin2011,\ndoi = {10.1109/tvcg.2011.202},\nurl = {https://doi.org/10.1109/tvcg.2011.202},\nyear = {2011},\nmonth = dec,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {17},\nnumber = {12},\npages = {2536--2544},\nauthor = {K. Buchin and B. Speckmann and K. Verbeek},\ntitle = {Flow Map Layout via Spiral Trees},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5119,7 +5119,7 @@
             "Authors": [
                 "Martin Nollenburg and Alexander Wolff"
             ],
-            "year": "2011",
+            "Year": "2011",
             "Dataset Size": "3",
             "BibTex": "@article{Nollenburg2011,\ndoi = {10.1109/tvcg.2010.81},\nurl = {https://doi.org/10.1109/tvcg.2010.81},\nyear = {2011},\nmonth = may,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {17},\nnumber = {5},\npages = {626--641},\nauthor = {M Nollenburg and A Wolff},\ntitle = {Drawing and Labeling High-Quality Metro Maps by Mixed-Integer Programming},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5157,7 +5157,7 @@
             "Authors": [
                 "Ozan Ersoy and Christophe Hurter and Fernando Paulovich and Gabriel Cantareiro and Alex Telea"
             ],
-            "year": "2011",
+            "Year": "2011",
             "Dataset Size": "5",
             "BibTex": "@article{Ersoy2011,\ndoi = {10.1109/tvcg.2011.233},\nurl = {https://doi.org/10.1109/tvcg.2011.233},\nyear = {2011},\nmonth = dec,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {17},\nnumber = {12},\npages = {2364--2373},\nauthor = {O. Ersoy and C. Hurter and Fernando V. Paulovich and G. Cantareiro and A. Telea},\ntitle = {Skeleton-Based Edge Bundling for Graph Visualization},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5191,7 +5191,7 @@
             "Authors": [
                 "Yaniv Frishman and Ayellet Tal"
             ],
-            "year": "2008",
+            "Year": "2008",
             "Dataset Size": "4",
             "BibTex": "@article{Frishman2008,\ndoi = {10.1109/tvcg.2008.11},\nurl = {https://doi.org/10.1109/tvcg.2008.11},\nyear = {2008},\nmonth = jul,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {14},\nnumber = {4},\npages = {727--740},\nauthor = {Y. Frishman and A. Tal},\ntitle = {Online Dynamic Graph Drawing},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5226,7 +5226,7 @@
             "Authors": [
                 "Xiaoke Huang and Ye Zhao and Chao Ma and Jing Yang and Xinyue Ye and Chong Zhang"
             ],
-            "year": "2016",
+            "Year": "2016",
             "Dataset Size": "1",
             "BibTex": "@article{Huang2016,\ndoi = {10.1109/tvcg.2015.2467771},\nurl = {https://doi.org/10.1109/tvcg.2015.2467771},\nyear = {2016},\nmonth = jan,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {22},\nnumber = {1},\npages = {160--169},\nauthor = {Xiaoke Huang and Ye Zhao and Chao Ma and Jing Yang and Xinyue Ye and Chong Zhang},\ntitle = {{TrajGraph}: A Graph-Based Visual Analytics Approach to Studying Urban Network Centralities Using Taxi Trajectory Data},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5261,7 +5261,7 @@
             "Authors": [
                 "Benjamin Bach and Emmanuel Pietriga and Jean-Daniel Fekete"
             ],
-            "year": "2014",
+            "Year": "2014",
             "Dataset Size": "1",
             "BibTex": "@article{Bach2014,\ndoi = {10.1109/tvcg.2013.254},\nurl = {https://doi.org/10.1109/tvcg.2013.254},\nyear = {2014},\nmonth = may,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {20},\nnumber = {5},\npages = {740--754},\nauthor = {Benjamin Bach and Emmanuel Pietriga and Jean-Daniel Fekete},\ntitle = {{GraphDiaries}: Animated Transitions {andTemporal} Navigation for Dynamic Networks},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5299,7 +5299,7 @@
             "Authors": [
                 "Michael Burch and Corinna Vehlow and Fabian Beck and Stephan Diehl and Daniel Weiskopf"
             ],
-            "year": "2011",
+            "Year": "2011",
             "Dataset Size": "3",
             "BibTex": "@article{Burch2011,\ndoi = {10.1109/tvcg.2011.226},\nurl = {https://doi.org/10.1109/tvcg.2011.226},\nyear = {2011},\nmonth = dec,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {17},\nnumber = {12},\npages = {2344--2353},\nauthor = {M. Burch and C. Vehlow and F. Beck and S. Diehl and D. Weiskopf},\ntitle = {Parallel Edge Splatting for Scalable Dynamic Graph Visualization},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5336,7 +5336,7 @@
             "Authors": [
                 "Tatiana von Landesberger and Felix Brodkorb and Philipp Roskosch and Natalia Andrienko and Gennady Andrienko and Andreas Kerren"
             ],
-            "year": "2016",
+            "Year": "2016",
             "Dataset Size": "2",
             "BibTex": "@article{vonLandesberger2016,\ndoi = {10.1109/tvcg.2015.2468111},\nurl = {https://doi.org/10.1109/tvcg.2015.2468111},\nyear = {2016},\nmonth = jan,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {22},\nnumber = {1},\npages = {11--20},\nauthor = {Tatiana von Landesberger and Felix Brodkorb and Philipp Roskosch and Natalia Andrienko and Gennady Andrienko and Andreas Kerren},\ntitle = {{MobilityGraphs}: Visual Analysis of Mass Mobility Dynamics via Spatio-Temporal Graphs and Clustering},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5380,7 +5380,7 @@
             "Authors": [
                 "Kanit Wongsuphasawat and Daniel Smilkov and James Wexler and Jimbo Wilson and Dandelion Mane and Doug Fritz and Dilip Krishnan and Fernanda B. Viegas and Martin Wattenberg"
             ],
-            "year": "2018",
+            "Year": "2018",
             "Dataset Size": "2",
             "BibTex": "@article{Wongsuphasawat2018,\ndoi = {10.1109/tvcg.2017.2744878},\nurl = {https://doi.org/10.1109/tvcg.2017.2744878},\nyear = {2018},\nmonth = jan,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {24},\nnumber = {1},\npages = {1--12},\nauthor = {Kanit Wongsuphasawat and Daniel Smilkov and James Wexler and Jimbo Wilson and Dandelion Mane and Doug Fritz and Dilip Krishnan and Fernanda B. Viegas and Martin Wattenberg},\ntitle = {Visualizing Dataflow Graphs of Deep Learning Models in {TensorFlow}},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5419,7 +5419,7 @@
             "Authors": [
                 "Weiwei Cui and Hong Zhou and Huamin Qu and Pak Chung Wong and Xiaoming Li"
             ],
-            "year": "2008",
+            "Year": "2008",
             "Dataset Size": "4",
             "BibTex": "@article{WeiweiCui2008,\ndoi = {10.1109/tvcg.2008.135},\nurl = {https://doi.org/10.1109/tvcg.2008.135},\nyear = {2008},\nmonth = nov,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {14},\nnumber = {6},\npages = {1277--1284},\nauthor = {Weiwei Cui and Hong Zhou and Huamin Qu and Pak Chung Wong and Xiaoming Li},\ntitle = {Geometry-Based Edge Clustering for Graph Visualization},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5457,7 +5457,7 @@
             "Authors": [
                 "Mengchen Liu and Jiaxin Shi and Zhen Li and Chongxuan Li and Jun Zhu and Shixia Liu"
             ],
-            "year": "2017",
+            "Year": "2017",
             "Dataset Size": "7",
             "BibTex": "@article{Liu2017,\ndoi = {10.1109/tvcg.2016.2598831},\nurl = {https://doi.org/10.1109/tvcg.2016.2598831},\nyear = {2017},\nmonth = jan,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {23},\nnumber = {1},\npages = {91--100},\nauthor = {Mengchen Liu and Jiaxin Shi and Zhen Li and Chongxuan Li and Jun Zhu and Shixia Liu},\ntitle = {Towards Better Analysis of Deep Convolutional Neural Networks},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5494,7 +5494,7 @@
             "Authors": [
                 "Nathalie Henry and Jean-Daniel Fekete and Michael J. McGuffin"
             ],
-            "year": "2007",
+            "Year": "2007",
             "Dataset Size": "1",
             "BibTex": "@article{Henry2007,\ndoi = {10.1109/tvcg.2007.70582},\nurl = {https://doi.org/10.1109/tvcg.2007.70582},\nyear = {2007},\nmonth = nov,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {13},\nnumber = {6},\npages = {1302--1309},\nauthor = {Nathalie Henry and Jean-Daniel Fekete and Michael J. McGuffin},\ntitle = {{NodeTrix}: a Hybrid Visualization of Social Networks},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5529,7 +5529,7 @@
             "Authors": [
                 "Danny Holten"
             ],
-            "year": "2006",
+            "Year": "2006",
             "Dataset Size": "1",
             "BibTex": "@article{Holten2006,\ndoi = {10.1109/tvcg.2006.147},\nurl = {https://doi.org/10.1109/tvcg.2006.147},\nyear = {2006},\nmonth = sep,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {12},\nnumber = {5},\npages = {741--748},\nauthor = {D. Holten},\ntitle = {Hierarchical Edge Bundles: Visualization of Adjacency Relations in Hierarchical Data},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5565,7 +5565,7 @@
             "Authors": [
                 "Alessio Arleo and Walter Didimo and Giuseppe Liotta and Fabrizio Montecchiani"
             ],
-            "year": "2016",
+            "Year": "2016",
             "Dataset Size": "52",
             "BibTex": "@article{Arleo2019,\ndoi = {10.1109/tpds.2018.2869805},\nurl = {https://doi.org/10.1109/tpds.2018.2869805},\nyear = {2019},\nmonth = apr,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {30},\nnumber = {4},\npages = {754--765},\nauthor = {Alessio Arleo and Walter Didimo and Giuseppe Liotta and Fabrizio Montecchiani},\ntitle = {A Distributed Multilevel Force-Directed Algorithm},\njournal = {{IEEE} Transactions on Parallel and Distributed Systems}\n}",
             "Dataset Tag": [
@@ -5603,7 +5603,7 @@
             "Authors": [
                 "Y. Frishman and Ayellet Tal"
             ],
-            "year": "2004",
+            "Year": "2004",
             "Dataset Size": "1",
             "BibTex": "@INPROCEEDINGS{frishman2004, author={Frishman, Y. and Ayellet Tal}, booktitle={IEEE Symposium on Information Visualization}, title={Dynamic Drawing of Clustered Graphs}, year={2004}, volume={}, number={}, pages={191-198}, doi={10.1109/INFVIS.2004.18}}",
             "Dataset Tag": [
@@ -5639,7 +5639,7 @@
             "Authors": [
                 "Hsiang-Yun Wu and Martin Nollenburg  and Ivan Viola"
             ],
-            "year": "2020",
+            "Year": "2020",
             "Dataset Size": "4",
             "BibTex": "@article{Wu2020,\ndoi = {10.1109/tvcg.2020.3038154},\nurl = {https://doi.org/10.1109/tvcg.2020.3038154},\nyear = {2020},\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\npages = {1--1},\nauthor = {Hsiang-Yun Wu and Martin Nollenburg and Ivan Viola},\ntitle = {Multi-level Area Balancing of Clustered Graphs},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5679,7 +5679,7 @@
             "Authors": [
                 "Tim Dwyer and Nathalie Henry Riche and Kim Marriott and Christopher Mears"
             ],
-            "year": "2013",
+            "Year": "2013",
             "Dataset Size": "10",
             "BibTex": "@article{Dwyer2013,\ndoi = {10.1109/tvcg.2013.151},\nurl = {https://doi.org/10.1109/tvcg.2013.151},\nyear = {2013},\nmonth = dec,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {19},\nnumber = {12},\npages = {2596--2605},\nauthor = {Tim Dwyer and Nathalie Henry Riche and Kim Marriott and Christopher Mears},\ntitle = {Edge Compression Techniques for Visualization of Dense Directed Graphs},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5713,7 +5713,7 @@
             "Authors": [
                 "Botong Qu and Eugene Zhang and Yue Zhang"
             ],
-            "year": "2021",
+            "Year": "2021",
             "Dataset Size": "8",
             "BibTex": "@article{Qu2022,\ndoi = {10.1109/tvcg.2021.3114759},\nurl = {https://doi.org/10.1109/tvcg.2021.3114759},\nyear = {2022},\nmonth = jan,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {28},\nnumber = {1},\npages = {633--642},\nauthor = {Botong Qu and Eugene Zhang and Yue Zhang},\ntitle = {Automatic Polygon Layout for Primal-Dual Visualization of Hypergraphs},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5751,7 +5751,7 @@
             "Authors": [
                 "Markus Wallinger and Daniel Archambault and David Auber and Martin Nollenburg and Jaakko Peltonen"
             ],
-            "year": "2022",
+            "Year": "2022",
             "Dataset Size": "9",
             "BibTex": "@article{Wallinger2022,\ndoi = {10.1109/tvcg.2021.3114795},\nurl = {https://doi.org/10.1109/tvcg.2021.3114795},\nyear = {2022},\nmonth = jan,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {28},\nnumber = {1},\npages = {313--323},\nauthor = {Markus Wallinger and Daniel Archambault and David Auber and Martin Nollenburg and Jaakko Peltonen},\ntitle = {Edge-Path Bundling: A Less Ambiguous Edge Bundling Approach},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5793,7 +5793,7 @@
             "Authors": [
                 "Sara Di Bartolomeo and Yixuan Zhang and Fangfang Sheng and Cody Dunne"
             ],
-            "year": "2020",
+            "Year": "2020",
             "Dataset Size": "7",
             "BibTex": "@article{Bartolomeo2021,\ndoi = {10.1109/tvcg.2020.3030442},\nurl = {https://doi.org/10.1109/tvcg.2020.3030442},\nyear = {2021},\nmonth = feb,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {27},\nnumber = {2},\npages = {1353--1363},\nauthor = {Sara Di Bartolomeo and Yixuan Zhang and Fangfang Sheng and Cody Dunne},\ntitle = {Sequence Braiding: Visual Overviews of Temporal Event Sequences and Attributes},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5834,7 +5834,7 @@
             "Authors": [
                 "Sara di Bartolomeo and Mirek Riedewald and Wolfgang Gatterbauer and Cody Dunne"
             ],
-            "year": "2022",
+            "Year": "2022",
             "Dataset Size": "468",
             "BibTex": "@article{diBartolomeo2022b,\ndoi = {10.1109/tvcg.2021.3114756},\nurl = {https://doi.org/10.1109/tvcg.2021.3114756},\nyear = {2022},\nmonth = jan,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {28},\nnumber = {1},\npages = {324--334},\nauthor = {Sara di Bartolomeo and Mirek Riedewald and Wolfgang Gatterbauer and Cody Dunne},\ntitle = {{STRATISFIMAL} {LAYOUT}: A modular optimization model for laying out layered node-link network visualizations},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5875,7 +5875,7 @@
             "Authors": [
                 "Yuzuru Tanahashi and Chien-Hsin Hsueh and Kwan-Liu Ma"
             ],
-            "year": "2015",
+            "Year": "2015",
             "Dataset Size": "7",
             "BibTex": "@article{Tanahashi2015,\ndoi = {10.1109/tvcg.2015.2392771},\nurl = {https://doi.org/10.1109/tvcg.2015.2392771},\nyear = {2015},\nmonth = jun,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {21},\nnumber = {6},\npages = {730--742},\nauthor = {Yuzuru Tanahashi and Chien-Hsin Hsueh and Kwan-Liu Ma},\ntitle = {An Efficient Framework for Generating Storyline Visualizations from Streaming Data},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5914,7 +5914,7 @@
             "Authors": [
                 "Yuzuru Tanahashi and Kwan-Liu Ma"
             ],
-            "year": "2012",
+            "Year": "2012",
             "Dataset Size": "4",
             "BibTex": "@article{Tanahashi2012,\ndoi = {10.1109/tvcg.2012.212},\nurl = {https://doi.org/10.1109/tvcg.2012.212},\nyear = {2012},\nmonth = dec,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {18},\nnumber = {12},\npages = {2679--2688},\nauthor = {Y. Tanahashi and Kwan-Liu Ma},\ntitle = {Design Considerations for Optimizing Storyline Visualizations},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5953,7 +5953,7 @@
             "Authors": [
                 "Shixia Liu and Yingcai Wu and Enxun Wei and Mengchen Liu and Yang Liu"
             ],
-            "year": "2013",
+            "Year": "2013",
             "Dataset Size": "8",
             "BibTex": "@article{ShixiaLiu2013,\ndoi = {10.1109/tvcg.2013.196},\nurl = {https://doi.org/10.1109/tvcg.2013.196},\nyear = {2013},\nmonth = dec,\npublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\nvolume = {19},\nnumber = {12},\npages = {2436--2445},\nauthor = {Shixia Liu and Yingcai Wu and Enxun Wei and Mengchen Liu and Yang Liu},\ntitle = {{StoryFlow}: Tracking the Evolution of Stories},\njournal = {{IEEE} Transactions on Visualization and Computer Graphics}\n}",
             "Dataset Tag": [
@@ -5993,7 +5993,7 @@
             "Authors": [
                 "Stefan Hachul and Michael Junger"
             ],
-            "year": "2005",
+            "Year": "2005",
             "Dataset Size": "71 + 46",
             "BibTex": "@techreport{hacul2005,\nauthor = {Stefan Hachul and Michael J{\\\"u}nger},\nyear = {2005},\ntitle = {Large-Graph Layout with the Fast Multipole Multilevel Method},\ntype = {Working Paper},\ninstitution = {Universit{\\\"a}t zu K{\\\"o}ln},\nabstract = {The visualization of of large and complex networks or graphs is an indispensable instrument for getting deeper insight into their structure. Force-directed graph-drawing algorithms are widely used to draw such graphs. However, these methods do not guarantee a sub-quadratic running time in general. We present a new force-directed method that is based on a combination of an efficient multilevel scheme and a strategy for approximating the repulsive forces in the system by rapidly evaluating potential fields. Given a graph G=(V,E), the asymptotic worst-case running time of this method is O({\\ensuremath{|}}V{\\ensuremath{|}}log{\\ensuremath{|}}V{\\ensuremath{|}}+{\\ensuremath{|}}E{\\ensuremath{|}}) with linear memory requirements. In practice, the algorithm generates nice drawings of graphs with 100000 nodes in less than 5 minutes. Furthermore, it clearly visualizes even the structures of those graphs that turned out to be challenging for other methods.},\nurl = {https://kups.ub.uni-koeln.de/54892/}\n}",
             "Dataset Tag": [
@@ -6030,7 +6030,7 @@
             "Authors": [
                 "Peter Eades"
             ],
-            "year": "1984",
+            "Year": "1984",
             "Dataset Size": "",
             "BibTex": "@article{eades1984,\nauthor=\"EADES, P.\",\ntitle=\"A heuristic for graph drawing\",\njournal=\"Congressus Numerantium\",\nyear=\"1984\",\nvolume=\"42\",\npages=\"149-160\",\nURL=\"https://cir.nii.ac.jp/crid/1573387448853684864\"\n}",
             "Dataset Tag": [
