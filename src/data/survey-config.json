@@ -311,7 +311,7 @@
     "addEntry": {
       "description":["If you are an author of a peer-reviewed published work on Graph layouts that presents a contribution missing in our browser, please feel free to submit an entry. Filling out the form below will create a json entry that can be added as an issue to the github together with a 100x100px PNG thumbail.",
                      "The URL provided in the form should point to a DOI. Also, please acknowledge the fact that by submitting an entry, you provide us with permissions to use your image on this resource and in related publications."],
-      "github":"https://github.com/VisDunneRight/IA-Survey/issues"
+      "github":"https://github.com/VisDunneRight/gd-comp-eval/issues/new"
     }
   }
 }

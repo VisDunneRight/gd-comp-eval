@@ -25,7 +25,7 @@ $:console.log(selectedDimX, selectedDimY)
 <div class="vis-panel" >
   <Accordion multiple>
     <Panel>
-      <Header>Correlations Matrix</Header>
+      <Header>Correlation Matrix</Header>
       <Content>
         <Text style="padding-left:40px">Dimension X-Axis:</Text>
         <Set chips={choicesDim} let:chip choice bind:selected={selectedDimX}>

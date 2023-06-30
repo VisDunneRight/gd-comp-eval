@@ -651,7 +651,7 @@
         },
         {
             "Name": "Content-based text mapping using multi-dimensional projections for exploration of document collections",
-            "DOI": "https://doi.org/https://doi.org/10.1117/12.650880",
+            "DOI": "https://doi.org/10.1117/12.650880",
             "Graph Feature": [
                 "Generic"
             ],
@@ -1163,7 +1163,7 @@
         },
         {
             "Name": "A branch-and-cut approach to the crossing number problem",
-            "DOI": "https://doi.org/https://doi.org/10.1016/j.disopt.2007.05.006",
+            "DOI": "https://doi.org/10.1016/j.disopt.2007.05.006",
             "Graph Feature": [
                 "Generic"
             ],
@@ -1620,7 +1620,7 @@
         },
         {
             "Name": "Stratisfimal Layout: A modular optimization model for laying out layered node-link network visualizations",
-            "DOI": "https://doi.org/https://doi.org/10.1109/TVCG.2021.3114756",
+            "DOI": "https://doi.org/10.1109/TVCG.2021.3114756",
             "Graph Feature": [
                 "Clusters (pre-existing)",
                 "Compound graphs",
@@ -1667,7 +1667,7 @@
         },
         {
             "Name": "Edge-Path Bundling: A Less Ambiguous Edge Bundling Approach",
-            "DOI": "https://doi.org/https://doi.ieeecomputersociety.org/10.1109/TVCG.2021.3114795",
+            "DOI": "https://doi.org/10.1109/TVCG.2021.3114795",
             "Graph Feature": [
                 "Bundled edges (generated)",
                 "Spatial"
@@ -1712,7 +1712,7 @@
         },
         {
             "Name": "Automatic Polygon Layout for Primal-Dual Visualization of Hypergraphs",
-            "DOI": "https://doi.org/http://doi.org/10.1109/tvcg.2021.3114759",
+            "DOI": "https://doi.org/10.1109/tvcg.2021.3114759",
             "Graph Feature": [
                 "Clusters (generated)"
             ],
@@ -2252,7 +2252,7 @@
         },
         {
             "Name": "TrajGraph: A Graph-Based Visual Analytics Approach to Studying Urban Network Centralities Using Taxi Trajectory Data",
-            "DOI": "https://doi.org/https://doi.org/10.1109/tvcg.2015.2467771",
+            "DOI": "https://doi.org/10.1109/tvcg.2015.2467771",
             "Graph Feature": [
                 "Labeled Nodes",
                 "Spatial"
@@ -2292,7 +2292,7 @@
         },
         {
             "Name": "Online Dynamic Graph Drawing",
-            "DOI": "https://doi.org/https://doi.org/10.1109/tvcg.2008.11",
+            "DOI": "https://doi.org/10.1109/tvcg.2008.11",
             "Graph Feature": [
                 "Dynamic"
             ],
@@ -2330,7 +2330,7 @@
         },
         {
             "Name": "Skeleton-Based Edge Bundling for Graph Visualization",
-            "DOI": "https://doi.org/https://doi.org/10.1109/tvcg.2011.233",
+            "DOI": "https://doi.org/10.1109/tvcg.2011.233",
             "Graph Feature": [
                 "Generic",
                 "Spatial"
@@ -2369,7 +2369,7 @@
         },
         {
             "Name": "Drawing and Labeling High-Quality Metro Maps by Mixed-Integer Programming",
-            "DOI": "https://doi.org/https://doi.org/10.1109/tvcg.2010.81",
+            "DOI": "https://doi.org/10.1109/tvcg.2010.81",
             "Graph Feature": [
                 "Labeled Nodes",
                 "Spatial"
@@ -2450,7 +2450,7 @@
         },
         {
             "Name": "Topological fisheye views for visualizing large graphs",
-            "DOI": "https://doi.org/https://doi.org/10.1109/tvcg.2005.66",
+            "DOI": "https://doi.org/10.1109/tvcg.2005.66",
             "Graph Feature": [
                 "Generic",
                 "High degree",
@@ -2490,7 +2490,7 @@
         },
         {
             "Name": "DICON: Interactive Visual Analysis of Multidimensional Clusters",
-            "DOI": "https://doi.org/https://doi.org/10.1109/tvcg.2011.188",
+            "DOI": "https://doi.org/10.1109/tvcg.2011.188",
             "Graph Feature": [
                 "Clusters (pre-existing)",
                 "Multivariate",
@@ -2533,7 +2533,7 @@
         },
         {
             "Name": "KelpFusion: A Hybrid Set Visualization Technique",
-            "DOI": "https://doi.org/https://doi.org/10.1109/tvcg.2013.76",
+            "DOI": "https://doi.org/10.1109/tvcg.2013.76",
             "Graph Feature": [
                 "Spatial"
             ],
@@ -2572,7 +2572,7 @@
         },
         {
             "Name": "Preserving Minority Structures in Graph Sampling",
-            "DOI": "https://doi.org/https://doi.org/10.1109/tvcg.2020.3030428",
+            "DOI": "https://doi.org/10.1109/tvcg.2020.3030428",
             "Graph Feature": [
                 "Generic"
             ],
@@ -2736,7 +2736,7 @@
         },
         {
             "Name": "An effective crossing minimisation heuristic based on star insertion",
-            "DOI": "https://doi.org/http://dx.doi.org/10.7155/jgaa.00487",
+            "DOI": "https://doi.org/10.7155/jgaa.00487",
             "Graph Feature": [
                 "Generic"
             ],
@@ -3024,7 +3024,7 @@
         },
         {
             "Name": "Multi-Level Area Balancing of Clustered Graphs",
-            "DOI": "https://doi.org/https://doi.org/10.1109/TVCG.2020.3038154",
+            "DOI": "https://doi.org/10.1109/TVCG.2020.3038154",
             "Graph Feature": [
                 "Categorical Nodes",
                 "Clusters (pre-existing)",
@@ -3068,7 +3068,7 @@
         },
         {
             "Name": "An experimental comparison of four graph drawing algorithms",
-            "DOI": "https://doi.org/https://doi.org/10.1016/S0925-7721(96)00005-3",
+            "DOI": "https://doi.org/10.1016/S0925-7721(96)00005-3",
             "Graph Feature": [
                 "Generic"
             ],
@@ -3152,7 +3152,7 @@
         },
         {
             "Name": "Drawing graphs by eigenvectors: theory and practice",
-            "DOI": "https://doi.org/https://doi.org/10.1016/j.camwa.2004.08.015",
+            "DOI": "https://doi.org/10.1016/j.camwa.2004.08.015",
             "Graph Feature": [
                 "Generic"
             ],
@@ -4467,7 +4467,7 @@
         },
         {
             "Name": "A Distributed Multilevel Force-Directed Algorithm",
-            "DOI": "https://doi.org/https://doi.org/10.1109/TPDS.2018.2869805",
+            "DOI": "https://doi.org/10.1109/TPDS.2018.2869805",
             "Graph Feature": [
                 "Generic",
                 "Large"
@@ -4510,7 +4510,7 @@
         },
         {
             "Name": "A Sparse Stress Model",
-            "DOI": "https://doi.org/http://dx.doi.org/10.7155/jgaa.00440",
+            "DOI": "https://doi.org/10.7155/jgaa.00440",
             "Graph Feature": [
                 "Large",
                 "Weighted Edges"
@@ -4550,7 +4550,7 @@
         },
         {
             "Name": "Node Overlap Removal by Growing a Tree",
-            "DOI": "https://doi.org/https://doi.org/10.7155/jgaa.00442",
+            "DOI": "https://doi.org/10.7155/jgaa.00442",
             "Graph Feature": [
                 "Large"
             ],
@@ -4591,7 +4591,7 @@
         },
         {
             "Name": "Placing Arrows in Directed Graph Drawings",
-            "DOI": "https://doi.org/https://doi.org/10.1007/978-3-319-50106-2_4",
+            "DOI": "https://doi.org/10.1007/978-3-319-50106-2_4",
             "Graph Feature": [
                 "Directed Edges"
             ],
@@ -4629,7 +4629,7 @@
         },
         {
             "Name": "A Generalization of the Directed Graph Layering Problem",
-            "DOI": "https://doi.org/https://doi.org/10.1007/978-3-319-50106-2_16",
+            "DOI": "https://doi.org/10.1007/978-3-319-50106-2_16",
             "Graph Feature": [
                 "Directed Edges",
                 "Layered graphs",
@@ -4671,7 +4671,7 @@
         },
         {
             "Name": "Compact Layered Drawings of General Directed Graphs",
-            "DOI": "https://doi.org/https://doi.org/10.1007/978-3-319-50106-2_17",
+            "DOI": "https://doi.org/10.1007/978-3-319-50106-2_17",
             "Graph Feature": [
                 "Directed Edges",
                 "Layered graphs",
@@ -4714,7 +4714,7 @@
         },
         {
             "Name": "Bitonic st-orderings for Upward Planar Graphs",
-            "DOI": "https://doi.org/https://doi.org/10.1007/978-3-319-50106-2_18",
+            "DOI": "https://doi.org/10.1007/978-3-319-50106-2_18",
             "Graph Feature": [
                 "Directed Edges",
                 "Planar",
@@ -4752,7 +4752,7 @@
         },
         {
             "Name": "A Note on the Practicality of Maximal Planar Subgraph Algorithms",
-            "DOI": "https://doi.org/https://doi.org/10.1007/978-3-319-50106-2_28",
+            "DOI": "https://doi.org/10.1007/978-3-319-50106-2_28",
             "Graph Feature": [
                 "Planar"
             ],
@@ -4796,7 +4796,7 @@
         },
         {
             "Name": "Block Crossings in Storyline Visualizations",
-            "DOI": "https://doi.org/https://doi.org/10.1007/978-3-319-50106-2_30",
+            "DOI": "https://doi.org/10.1007/978-3-319-50106-2_30",
             "Graph Feature": [
                 "Dynamic - discrete",
                 "Hypergraphs",
@@ -4994,7 +4994,7 @@
         },
         {
             "Name": "Line Crossing Minimization on Metro Maps",
-            "DOI": "https://doi.org/https://doi.org/10.1007/978-3-540-77537-9_24",
+            "DOI": "https://doi.org/10.1007/978-3-540-77537-9_24",
             "Graph Feature": [
                 "Terminals"
             ],
@@ -5147,7 +5147,7 @@
         },
         {
             "Name": "A Fast and Simple Heuristic\nfor Constrained Two-Level Crossing Reduction",
-            "DOI": "https://doi.org/https://doi.org/10.1007/978-3-540-31843-9_22",
+            "DOI": "https://doi.org/10.1007/978-3-540-31843-9_22",
             "Graph Feature": [
                 "Bipartite",
                 "Layered graphs"
@@ -5264,7 +5264,7 @@
         },
         {
             "Name": "An Experimental Study of Crossing\nMinimization Heuristics",
-            "DOI": "https://doi.org/https://doi.org/10.1007/978-3-540-24595-7_2",
+            "DOI": "https://doi.org/10.1007/978-3-540-24595-7_2",
             "Graph Feature": [
                 "Generic"
             ],
@@ -6346,7 +6346,7 @@
         },
         {
             "Name": "An Integer-Linear Program\nfor Bend-Minimization in Ortho-Radial\nDrawings",
-            "DOI": "https://doi.org/https://doi.org/10.1007/978-3-030-68766-3_19",
+            "DOI": "https://doi.org/10.1007/978-3-030-68766-3_19",
             "Graph Feature": [
                 "Ortho",
                 "Ortho-radial"
@@ -6545,7 +6545,7 @@
         },
         {
             "Name": "A Quality Metric for Visualization of Clusters in Graphs",
-            "DOI": "https://doi.org/https://doi.org/10.1007/978-3-030-35802-0_10",
+            "DOI": "https://doi.org/10.1007/978-3-030-35802-0_10",
             "Graph Feature": [
                 "Clusters (generated)"
             ],
@@ -6851,7 +6851,7 @@
         },
         {
             "Name": "Graph Drawing via Gradient\nDescent, (GD)2",
-            "DOI": "https://doi.org/https://doi.org/10.1007/978-3-030-68766-3_1",
+            "DOI": "https://doi.org/10.1007/978-3-030-68766-3_1",
             "Graph Feature": [
                 "Generic"
             ],
