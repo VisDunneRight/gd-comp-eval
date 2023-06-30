@@ -1,31 +1,23 @@
 import csv
 import json
-filename = 'AI-Survey.csv'
+filename = 'Graph-Survey.csv'
 includeProp = {
-  "Name":"String",
+  "Name": "String",
   "Authors": "MultiSelect",
   "Bibtex": "String",
   "DOI": "String",
   "Year": "Timeline",
-  "Opportunity": "MultiSelect",
-  "Contribution Type": "MultiSelect",
-  "Data Domain": "MultiSelect",
-  "Dataset Types": "MultiSelect",
-  "Dataset Generation": "MultiSelect",
-  "Presentation": "MultiSelect",
-  "Device": "MultiSelect",
-  "Input": "MultiSelect",
-  "Environment": "MultiSelect",
-  "Space": "MultiSelect",
-  "Embodiment": "MultiSelect",
-  "Collaboration ": "MultiSelect",
-  "Interaction": "MultiSelect",
-  "Visualization": "MultiSelect",
-  "Abstract/Natural": "MultiSelect",
-  "Manipulate": "MultiSelect",
-  "Position": "MultiSelect",
-  "Scale": "MultiSelect",
-  "2D or 3D": "MultiSelect"
+  "Graph Feature": "MultiSelect",
+  "Results Measured": "MultiSelect",
+  "Dataset Size": "String",
+  "Dataset Tag": "MultiSelect",
+  "Does Provide Code": "MultiSelect",
+  "Evaluation Type": "MultiSelect",
+  "Easy to find info about graphs?": "MultiSelect",
+  "Size of Graphs": "String",
+  "Supplemental Material": "MultiSelect",
+  "Type of Dataset Edit": "String",
+  "Storage Supplemental Material": "MultiSelect",
 }
 
 with open(filename, encoding='utf-8-sig') as csvfile:

@@ -1,6 +1,8 @@
 <script>
 import Chip, { Set, Text } from '@smui/chips';
+import Accordion, { Panel, Header, Content } from '@smui-extra/accordion';
 import CorrMetric from './viscomponets/corrMetric.svelte';
+import StackGraph from './viscomponets/stackGraph.svelte';
 export let data
 export let filterBy 
 let choicesDim = [];
@@ -16,35 +18,61 @@ filterBy.forEach((prop)=>{
 })
 $:selectedDimX = choicesDim[0];
 $:selectedDimY = choicesDim[0];
-$:console.log(selectedDimX, selectedDimY)
+$:selectedCate = choicesDim[0];
+$:console.log(selectedDimX, selectedDimY)  
 </script>
-<div class="vis-panel">
-  <Text style="padding-left:40px">Dimension X-Axis:</Text>
-  <Set chips={choicesDim} let:chip choice bind:selected={selectedDimX}>
-    <Chip {chip}>
-      <Text>{chip}</Text>
-    </Chip>
-  </Set>
-  <Text style="padding-left:40px">Dimension Y-Axis:</Text>
-  <Set style={"border-bottom: 1px solid gray"} chips={choicesDim} let:chip choice bind:selected={selectedDimY}>
-    <Chip {chip}>
-      <Text>{chip}</Text>
-    </Chip>
-  </Set>
-  <!-- Create the visualization -->
-  <CorrMetric 
-    data={data} 
-    filterBy={filterBy} 
-    selectedDimX={selectedDimX}
-    selectedDimY={selectedDimY}
-    on:message
-    />
+<!-- style="width:{}" -->
+<div class="vis-panel" >
+  <Accordion multiple>
+    <Panel>
+      <Header>Correlations Matrix</Header>
+      <Content>
+        <Text style="padding-left:40px">Dimension X-Axis:</Text>
+        <Set chips={choicesDim} let:chip choice bind:selected={selectedDimX}>
+          <Chip {chip}>
+            <Text>{chip}</Text>
+          </Chip>
+        </Set>
+        <Text style="padding-left:40px">Dimension Y-Axis:</Text>
+        <Set style={"border-bottom: 1px solid gray"} chips={choicesDim} let:chip choice bind:selected={selectedDimY}>
+          <Chip {chip}>
+            <Text>{chip}</Text>
+          </Chip>
+        </Set>
+        <!-- Create the visualization -->
+        <CorrMetric 
+          data={data} 
+          filterBy={filterBy} 
+          selectedDimX={selectedDimX}
+          selectedDimY={selectedDimY}
+          on:message
+          />
+      </Content>
+    </Panel>
+    <Panel>
+      <Header>Over the Years</Header>
+      <Content>
+        <Text style="padding-left:40px">Category:</Text>
+        <Set style={"border-bottom: 1px solid gray"} chips={choicesDim} let:chip choice bind:selected={selectedCate}>
+          <Chip {chip}>
+            <Text>{chip}</Text>
+          </Chip>
+        </Set>
+         <!-- Create the visualization -->
+        <StackGraph 
+          data={data} 
+          filterBy={filterBy} 
+          selectedCate={selectedCate}
+          on:message
+          />
+      </Content>
+    </Panel>
+  </Accordion>
 </div>
 <style>
   .vis-panel{
     padding:10px 5px;
     height: 100%;
-    width: 100%;
     position:fixed;
     background-color: var(--mdc-theme-background, #fff);
   }
