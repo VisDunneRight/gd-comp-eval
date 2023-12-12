@@ -1,8 +1,12 @@
 import csv
 import json
-filename = 'Graph-Survey.csv'
+import argparse
+
+# Modify these for easier running
+# The includeProp lets the parse know which data values and their types to process
+# These are the required field.
 includeProp = {
-  "Name": "String",
+  "Name":"String",
   "Authors": "MultiSelect",
   "Bibtex": "String",
   "DOI": "String",
@@ -34,31 +38,38 @@ with open(filename, encoding='utf-8-sig') as csvfile:
         jsonfile["detailView"].append(name)
     break
 
-  propStructure = {}
-  for prop in jsonfile["filterBy"]:
-    propStructure[prop] = {"name":prop, "values":set()}
+    propStructure = {}
+    for prop in includeProp:
+      propStructure[prop] = {"name":prop, "values":set()}
 
-  for row in spamreader:
-    entry = {}
-    for index, prop in enumerate(row):
-      if header[index] in includeProp:
-        if includeProp[header[index]] == "MultiSelect":
-          entry[header[index]] = [x.strip() for x in prop.split(",")] 
-        else:
-          entry[header[index]] = prop.strip()
-        if includeProp[header[index]] == "MultiSelect":
-          propList = [x.strip() for x in prop.split(",")] 
-          for doc in propList:
-            propStructure[header[index]]['values'].add(doc)
-    jsonfile["data"].append(entry)
+    for row in spamreader:
+      entry = {}
+      for index, prop in enumerate(row):
+        if header[index] in includeProp:
+          if includeProp[header[index]] == "MultiSelect":
+            entry[header[index]] = [x.strip() for x in prop.split(",")] 
+          else:
+            entry[header[index]] = prop.strip()
+          if includeProp[header[index]] == "MultiSelect":
+            propList = [x.strip() for x in prop.split(",")] 
+            for doc in propList:
+              propStructure[header[index]]['values'].add(doc)
+      jsonfile["data"].append(entry)
+    
+    dataObject = json.dumps(jsonfile, indent=4)
+    # Writing to survey-data.json
+    with open("survey-data.json", "w") as outfile:
+        outfile.write(dataObject)
+    
+    if args.onlydata == False:
+      for i in range(len(configfile["filterBy"])):
+        name = configfile["filterBy"][i]
+        propStructure[name]['values'] = list(propStructure[name]['values'] )
+        configfile["filterBy"][i] = propStructure[name]
 
-  for i in range(len(jsonfile["filterBy"])):
-    name = jsonfile["filterBy"][i]
-    propStructure[name]['values'] = list(propStructure[name]['values'] )
-    jsonfile["filterBy"][i] = propStructure[name]
-  
-  json_object = json.dumps(jsonfile, indent=4)
-  # Writing to sample.json
-  with open("survey-data.json", "w") as outfile:
-      outfile.write(json_object)
+      with open("survey-config.json", "w") as outfile:
+          configObject= json.dumps(configfile, indent=4)
+          outfile.write(configObject)
 
+if __name__ == '__main__':
+  main()
