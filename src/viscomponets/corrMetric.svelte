@@ -22,6 +22,7 @@
   let maxColorValue = 10;
   let maxPaperValue = 100;
   let minCutoff = 0;
+  let svgCon;
 
   let horBarId = -1;
   let verBarId = -1;
@@ -246,6 +247,11 @@
   // height="{modelRow(visData.yAxis.length + 2) + padding.bottom}"
   let w = 100,
     h = 100;
+
+  d3.select(svgCon)
+  .call(
+    d3.zoom()
+  )
 </script>
 
 <div class="corr-container" bind:clientWidth={w} bind:clientHeight={h}>
@@ -267,6 +273,7 @@
         <!-- width={visData.xAxis.length * 35 + padding.left + padding.right}
     height={visData.yAxis.length * 35 + padding.top + padding.bottom} -->
   <svg
+    bind:this={svgCon}
     class="svg-container"
     width={w}
     viewBox="0 0 

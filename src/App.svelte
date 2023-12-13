@@ -283,6 +283,9 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		column-gap: 10px;
+		height: 100%;
+		overflow-y: scroll;
+		scrollbar-width: thin;
 	}
 	.show-button {
 		position: fixed;

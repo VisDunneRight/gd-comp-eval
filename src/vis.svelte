@@ -31,9 +31,9 @@
     });
     selectedSubCate = "All";
   } else {
-    selectedSubCate = selectedCate;
+    selectedSubCate = "All";
   }
-$:console.log(width)
+
 </script>
 <svelte:window bind:innerWidth={width} />
 <div class="vis-panel dark:bg-gray-900">

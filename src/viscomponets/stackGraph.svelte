@@ -235,6 +235,7 @@
     });
   }
 
+  
   $: cate = getDimInfo(selectedCate, $filterBy);
   //comboBox for selecting tags
 
